@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://help.bonfida.com/solible/create/</loc>
+    <lastmod>2020-11-26T11:02:05+06:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://help.bonfida.com/orders/fees/</loc>
     <lastmod>2020-01-05T10:42:26+06:00</lastmod>
   </url>
@@ -13,12 +18,22 @@
   </url>
   
   <url>
+    <loc>https://help.bonfida.com/solible/orderbook/</loc>
+    <lastmod>2020-11-26T11:02:05+06:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://help.bonfida.com/orders/settle/</loc>
     <lastmod>2020-11-26T11:02:05+06:00</lastmod>
   </url>
   
   <url>
     <loc>https://help.bonfida.com/orders/limit/</loc>
+    <lastmod>2020-11-26T11:02:05+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://help.bonfida.com/solible/redeem/</loc>
     <lastmod>2020-11-26T11:02:05+06:00</lastmod>
   </url>
   
@@ -54,6 +69,11 @@
   
   <url>
     <loc>https://help.bonfida.com/orders/</loc>
+    <lastmod>2020-11-26T11:02:05+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://help.bonfida.com/solible/</loc>
     <lastmod>2020-11-26T11:02:05+06:00</lastmod>
   </url>
   
