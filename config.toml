@@ -18,9 +18,9 @@ unsafe = true
 ############################# Default Parameters ##########################
 [params]
 # logo is for all page
-logo = ""
+logo = "/logo/logo-big.svg"
 # logo white is for homepage logo, you can use colorful logo too...
-logo_white = ""
+logo_white = "/logo/logo-big.svg"
 # when logo is empty, it will shown your site title
 
 # customize color
