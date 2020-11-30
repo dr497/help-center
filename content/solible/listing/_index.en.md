@@ -5,7 +5,7 @@ lastmod: 2020-11-26T11:02:05+06:00
 weight: 6
 draft: false
 # search related keywords
-keywords: ["listing", "solible"]
+keywords: ["listing", "solible", "NFT"]
 ---
 
 Having your NFT creation listed on [Solible](https://solible.com/#/) is possible and easily done.
