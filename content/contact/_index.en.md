@@ -8,3 +8,4 @@ date: 2020-11-26T11:02:05+06:00
 
 - [Discord](https://discord.gg/B4xzATxQHC)
 - [Telegram](https://t.me/bonfidatg)
+- [Email](mailto:contact@bonfida.com)

@@ -91,12 +91,6 @@
         
         
         <li class="nav-item">
-          <a class="nav-link text-dark" href="https://help.bonfida.com/faq">Faq</a>
-        </li>
-        
-        
-        
-        <li class="nav-item">
           <a class="nav-link text-dark" href="https://help.bonfida.com/orders">orders</a>
         </li>
         
@@ -104,6 +98,18 @@
         
         <li class="nav-item">
           <a class="nav-link text-dark" href="https://help.bonfida.com/wallet">wallet</a>
+        </li>
+        
+        
+        
+        <li class="nav-item">
+          <a class="nav-link text-dark" href="https://help.bonfida.com/solible">solible</a>
+        </li>
+        
+        
+        
+        <li class="nav-item">
+          <a class="nav-link text-dark" href="https://help.bonfida.com/faq">Faq</a>
         </li>
         
         
@@ -137,9 +143,21 @@
 					var projects = [
 						
 						{
-							value: "Create an NFT",
-							label: "<p></p><p>induct</p><p>instate</p>",
-							url:"https:\/\/help.bonfida.com\/solible\/create\/"
+							value: "Convert your assets",
+							label: "<p>As of now, there are two ways to convert a token within the Serum ecosystem:\nDEX The convert function within the Bonfida GUI will only appear once you have connected your wallet.\nSWAP Also accessible from the header of Bonfida, Serum Swap has numerous listings available (including BTC, ETH, SOL, SRM, YFI, LINK, UNI \x26hellip;) for you to try\nWith the pools in Serum Swap, you may also provide liquidity for fees and an estimated APR averaging from 20 to 30% on some pairs.\nRead more on Project Serum Swap AMM and its pool on Serum Academy\n</p><p>convert</p><p>tokens</p><p>swap</p>",
+							url:"https:\/\/help.bonfida.com\/wallet\/convert\/"
+						},
+						
+						{
+							value: "Create your wallet",
+							label: "<p>Welcome to the Bonfida experience of Serum - a fully decentralized exchange with on-chain orderbooks powered by Solana.\nTo get started, we’ll walk you through setting up a Bonfida wallet to interact with the Solana blockchain as well as get you started with an airdrop to fund the network fees of your first bunch of transactions.\nAccess the Bonfida wallet: https:\/\/bonfida.com\/wallet\/\nOnce there, you will be given your 12 seed words for your Solana\/SPL Wallet. As always, store them safely, then check the disclaimer box and continue.\nBefore the creation, you will be given the opportunity to create a password for your Bonfida wallet. This password will later be asked to approve transactions from the pop up as a separate tab.\nNote: This password is entirely optional. Feel free to leave the space blank if you do not wish to have a password.\nDone! And for the quick eyes, you already know what’s next! Look closer and click on the top right to claim your airdrop.\nDone again! You are now set for a bunch of transactions with the airdropped SOL.\n</p><p>create, wallet</p>",
+							url:"https:\/\/help.bonfida.com\/wallet\/create\/"
+						},
+						
+						{
+							value: "Orderbook system",
+							label: "<p>Solible is a real time NFT auction house implemented with a trading orderbook system, similar to any exchanges you might use.\nAs any order book you will have, for each items on sale, from top to bottom:\n Sell orders (e.g 2500) Last trade (e.g 900) Buy orders (e.g 120)  With the above example, placing a bid lower than 2,500, it could be considered as an open order ; while placing a bid at 2,500 (or over) as a market buy.\nA seller changing its 2,500 limit sell to 120, would, in this case, result in a buy from the 120 order.\n</p><p>orderbook</p><p>solible</p><p>NFT</p>",
+							url:"https:\/\/help.bonfida.com\/solible\/orderbook\/"
 						},
 						
 						{
@@ -149,15 +167,15 @@
 						},
 						
 						{
-							value: "Convert your assets",
-							label: "<p></p><p></p>",
-							url:"https:\/\/help.bonfida.com\/wallet\/convert\/"
+							value: "Adding Tokens",
+							label: "<p>When you start with the standard Bonfida wallet, you only have a SOL address by default. This is similar to how MetaMask only comes with the Ethereum section. To add tokens, head to the wallet page, click Add Token, and you will be offered a list of more than 20 popular tokens. If you see what you are looking for, click on Add.\nBefore adding the token you should expand it to check its Mint Address.\nERC20 You can also add ERC20 tokens to your Bonfida wallet, which will then create the Solana-version of that token address (it will be a wrapped token).\nManual Input To add tokens that aren’t in the default list, you can head to the Manual Input tab and do so in the same way as MetaMask.\n</p><p>add</p><p>adding</p><p>tokens</p>",
+							url:"https:\/\/help.bonfida.com\/wallet\/add-tokens\/"
 						},
 						
 						{
-							value: "Redeem an NFT",
-							label: "<p></p><p>induct</p><p>instate</p>",
-							url:"https:\/\/help.bonfida.com\/solible\/orderbook\/"
+							value: "Place a bid",
+							label: "<p>To place a bid on a NFT, you will need to be connected to your SPL wallet. Once connected, you just need to type in the price as well as the size you want to bid for.\nAfter submitting your order, you will need to approve the transaction on the tab, and as soon as you confirm it, you will see your order in the open order list and orderbook.\nIf the auctioned item is set with a predefined market price (i.e. the Serum Ledger Nano X at 50 $SRM), bidding this price will result in an automatic purchase.\nYou will need to settle the NFT from your balances for it to be in your wallet. See the token settlement article\nBidding under the market price or submitting an offer to a countdown auction would be considered as an open order. When countdown reaches 0, the highest bid will automatically receive the token; while unsuccessful bids will remain as open orders in the orderbook.\n</p><p>bid</p><p>solible</p><p>order</p><p>buy</p><p>NFT</p>",
+							url:"https:\/\/help.bonfida.com\/solible\/place-bid\/"
 						},
 						
 						{
@@ -167,20 +185,26 @@
 						},
 						
 						{
+							value: "Connect your wallet",
+							label: "<p>The Bonfida wallet connects to the entire suite of Bonfida products - this currently includes the Bonfida DEX, Swap and Solible, our NFT exchange built with Serum.\nBonfida DEX \x26amp; Solible All Bonfida products have a dropdown list on the top right for you to select wallet you want to connect, the Bonfida wallet is set as the default choice.\nA confirmation tab will appear after you click Connect.\nThe Restore existing wallet function, is for when you forget your password, misplace your account, or accidentally empty your browser cache. To use this function you will have to enter your seedphrase.\nForget your password? Click on restore existing wallet, enter your seedphrase; then choose a password. Note that the password is optional.\nSwitch Account The Bonfida wallet can also support multiple accounts (think of sub-accounts in exchanges such as FTX).\n</p><p>connect</p><p>wallet</p>",
+							url:"https:\/\/help.bonfida.com\/wallet\/connect\/"
+						},
+						
+						{
 							value: "Limit Orders",
 							label: "<p>The beauty of Serum is that it has a fully on-chain orderbook, which means that unlike DEXes based on automated market makers (AMMs) you have the ability to place a resting order on a live on-chain orderbook, just as you would on a traditional centralized exchange like FTX. You can choose the price you want to buy or sell at.\nOnce you’ve selected the price you want your order to be filled, that order will be sent out via a transaction and rest on the on-chain orderbook until the market hits your order.\n</p><p>limit</p><p>order</p><p>placement</p>",
 							url:"https:\/\/help.bonfida.com\/orders\/limit\/"
 						},
 						
 						{
-							value: "Orderbook system and auction",
-							label: "<p></p><p>induct</p><p>instate</p>",
+							value: "Redeem",
+							label: "<p>To redeem an item, access its auction page. In this article we’ll use the Serum Ledger Nano X as an example.\nFirst, you will need to connect your wallet that is holding the token. Once you have connected, the Redeem button will get enabled.\nProceed to fill in your delivery information in the pop up forms then submit.\nFinally, approve the transaction, once the transaction is confirmed it means you have successfully redeemed the NFT. Now you just have to wait for it to be mailed to your door. You will receive a confirmation email in the 24 hour after redeeming your NFT.\n</p><p>redeem</p><p>nft</p><p>solible</p><p>NFT</p>",
 							url:"https:\/\/help.bonfida.com\/solible\/redeem\/"
 						},
 						
 						{
 							value: "How do I receive and send assets",
-							label: "<p></p><p></p>",
+							label: "<p>Now that you have your first Bonfida wallet (and some free $SOL), you can deposit some assets onto the Solana blockchain to interact with Serum the Bonfida way.\nReceiving \x26amp; Sending (Wallet) Depositing your assets into your Bonfida wallet is easy. Take SOL for example - just use your given deposit address and transact as you would with any other blockchain. If you want to deposit ETH to get more SOL, you can connect MetaMask to the Bonfida wallet to directly convert native ETH to SOL. This conversion will require network fees to pay both the Ethereum and Solana blockchain.\nSending tokens is a similar process and works as it does for any other wallet\/blockchain you’ve experienced. Just be sure to double-check your addresses as always. You can also convert SOL to native ETH through a MetaMask connection.\nReceiving \x26amp; Sending (DEX) To smoothen out the user experience of trading on Bonfida, you can directly withdraw your funds from the Wallet Balances page with Bonfida.\nSimply fill in your desired amount of tokens and destination address.\n</p><p>wallet</p><p>send</p><p>receive</p><p>transfer</p>",
 							url:"https:\/\/help.bonfida.com\/wallet\/receive-send\/"
 						},
 						
@@ -191,15 +215,27 @@
 						},
 						
 						{
+							value: "Resell your NFT",
+							label: "<p>Connect your wallet to Solible, then from the item page click on Sell in the trade form. Enter the price and size the you want to sell, and click on the Sell button.\nAfter approving the transaction you’ll see your sell order in the order book as well as in your open orders below.\nAs soon as someone buys your token, the funds received will be in your unsettled balances. You will need to settle those from the item page, otherwise funds will not appear in your wallet.\n</p><p>resell</p><p>solible</p><p>sell</p><p>order</p><p>NFT</p>",
+							url:"https:\/\/help.bonfida.com\/solible\/resell\/"
+						},
+						
+						{
 							value: "Cancel an order",
 							label: "<p>As your limit orders rest on the orderbook, you might experience a change of mind or you might want to change your trade. To remove the order, simply click the “Cancel” button and a transaction will be broadcast to remove it from the orderbook.\n</p><p>cancel</p><p>order</p>",
 							url:"https:\/\/help.bonfida.com\/orders\/cancel\/"
 						},
 						
 						{
-							value: "Connect your wallet",
-							label: "<p></p><p></p>",
-							url:"https:\/\/help.bonfida.com\/wallet\/connect\/"
+							value: "Sales types",
+							label: "<p>Auction Comparable to many other online auctions, an auction on Solible consists of a bid competition in between interested participants that will reward the highest bidder at the countdown expiration.\nThere is a timing deadline to stop receiving buy orders.\n</p><p>sales</p><p>types</p><p>solible</p><p>NFT</p>",
+							url:"https:\/\/help.bonfida.com\/solible\/sales-types\/"
+						},
+						
+						{
+							value: "Getting your NFT listed",
+							label: "<p>Having your NFT creation listed on Solible is possible and easily done.\nMint your token A cool feature available on Solana through Bonfida, is to be able to mint your own token and decide on its characteristics.\nAccessible from the Bonfida header Token -\x26gt; Mint, or https:\/\/bonfida.com\/mint ; you just need to type in your SOL address, the total supply and the decimals.\nCongrats you just minted your token on the Solana blockchain.\nList your NFT on Solible A simple email to contact@solible.com with the object being NFL listing. Alongside your digital art high resolution file, let us also know both the creation name and the artist behind.\nCheck the source on NFT listing here.\n</p><p>listing</p><p>solible</p>",
+							url:"https:\/\/help.bonfida.com\/solible\/listing\/"
 						},
 						
 						{
@@ -210,7 +246,7 @@
 						
 						{
 							value: "Got Any Questions",
-							label: "<p>24\/7 customer support:\n Discord Telegram  </p>",
+							label: "<p>24\/7 customer support:\n Discord Telegram Email  </p>",
 							url:"https:\/\/help.bonfida.com\/contact\/"
 						},
 						
@@ -240,7 +276,7 @@
 						
 						{
 							value: "Frequently Asked Questions",
-							label: "<p> What is Serum?    Lorem, link ipsum dolor sit amet consectetur adipisicing elit. Cumque praesentium nisi officiis maiores quia sapiente totam omnis vel sequi corporis ipsa incidunt reprehenderit recusandae maxime perspiciatis iste placeat architecto, mollitia delectus ut ab quibusdam. Magnam cumque numquam tempore reprehenderit illo, unde cum omnis vel sed temporibus, repudiandae impedit nam ad enim porro, qui labore fugiat quod suscipit fuga necessitatibus. Perferendis, ipsum? Cum, reprehenderit. Sapiente atque quam vitae, magnam dolore consequatur temporibus harum odit ab id quo qui aspernatur aliquid officiis sit error asperiores eveniet quibusdam, accusantium enim recusandae quas ea est! Quaerat omnis, placeat vitae laboriosam doloremque recusandae mollitia minima!   What is Bonfida?    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque praesentium nisi officiis maiores quia sapiente totam omnis vel sequi corporis ipsa incidunt reprehenderit recusandae maxime perspiciatis iste placeat architecto, mollitia delectus link ut ab quibusdam. Magnam cumque numquam tempore reprehenderit illo, unde cum omnis vel sed temporibus, repudiandae impedit nam ad enim porro, qui labore fugiat quod suscipit fuga necessitatibus. Perferendis, ipsum? Cum, reprehenderit. Sapiente atque quam vitae, magnam dolore consequatur temporibus harum odit ab id quo qui aspernatur aliquid officiis sit error asperiores eveniet quibusdam, accusantium enim recusandae quas ea est! Quaerat omnis, placeat vitae laboriosam doloremque recusandae mollitia minima!   Is Bonfida safe?    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque praesentium nisi officiis maiores quia sapiente totam omnis vel sequi corporis ipsa incidunt reprehenderit recusandae maxime perspiciatis iste placeat architecto, mollitia delectus link ut ab quibusdam. Magnam cumque numquam tempore reprehenderit illo, unde cum omnis vel sed temporibus, repudiandae impedit nam ad enim porro, qui labore fugiat quod suscipit fuga necessitatibus. Perferendis, ipsum? Cum, reprehenderit. Sapiente atque quam vitae, magnam dolore consequatur temporibus harum odit ab id quo qui aspernatur aliquid officiis sit error asperiores eveniet quibusdam, accusantium enim recusandae quas ea est! Quaerat omnis, placeat vitae laboriosam doloremque recusandae mollitia minima!   How do I trade?    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque praesentium nisi officiis maiores quia sapiente totam omnis vel sequi corporis ipsa incidunt reprehenderit recusandae maxime perspiciatis iste placeat architecto, mollitia delectus link ut ab quibusdam. Magnam cumque numquam tempore reprehenderit illo, unde cum omnis vel sed temporibus, repudiandae impedit nam ad enim porro, qui labore fugiat quod suscipit fuga necessitatibus. Perferendis, ipsum? Cum, reprehenderit. Sapiente atque quam vitae, magnam dolore consequatur temporibus harum odit ab id quo qui aspernatur aliquid officiis sit error asperiores eveniet quibusdam, accusantium enim recusandae quas ea est! Quaerat omnis, placeat vitae laboriosam doloremque recusandae mollitia minima!   How do I deposit fund?    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque praesentium nisi officiis maiores quia sapiente totam omnis vel sequi corporis ipsa incidunt reprehenderit recusandae maxime perspiciatis iste placeat architecto, mollitia delectus link ut ab quibusdam. Magnam cumque numquam tempore reprehenderit illo, unde cum omnis vel sed temporibus, repudiandae impedit nam ad enim porro, qui labore fugiat quod suscipit fuga necessitatibus. Perferendis, ipsum? Cum, reprehenderit. Sapiente atque quam vitae, magnam dolore consequatur temporibus harum odit ab id quo qui aspernatur aliquid officiis sit error asperiores eveniet quibusdam, accusantium enim recusandae quas ea est! Quaerat omnis, placeat vitae laboriosam doloremque recusandae mollitia minima!   What is the difference between limit and market order?    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque praesentium nisi officiis maiores quia sapiente totam omnis vel sequi corporis ipsa incidunt reprehenderit recusandae maxime perspiciatis iste placeat architecto, mollitia delectus link ut ab quibusdam. Magnam cumque numquam tempore reprehenderit illo, unde cum omnis vel sed temporibus, repudiandae impedit nam ad enim porro, qui labore fugiat quod suscipit fuga necessitatibus. Perferendis, ipsum? Cum, reprehenderit. Sapiente atque quam vitae, magnam dolore consequatur temporibus harum odit ab id quo qui aspernatur aliquid officiis sit error asperiores eveniet quibusdam, accusantium enim recusandae quas ea est! Quaerat omnis, placeat vitae laboriosam doloremque recusandae mollitia minima!   What wallet can I connect?    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque praesentium nisi officiis maiores quia sapiente totam omnis vel sequi corporis ipsa incidunt reprehenderit recusandae maxime perspiciatis iste placeat architecto, mollitia delectus link ut ab quibusdam. Magnam cumque numquam tempore reprehenderit illo, unde cum omnis vel sed temporibus, repudiandae impedit nam ad enim porro, qui labore fugiat quod suscipit fuga necessitatibus. Perferendis, ipsum? Cum, reprehenderit. Sapiente atque quam vitae, magnam dolore consequatur temporibus harum odit ab id quo qui aspernatur aliquid officiis sit error asperiores eveniet quibusdam, accusantium enim recusandae quas ea est! Quaerat omnis, placeat vitae laboriosam doloremque recusandae mollitia minima!   How do I convert ERC20 tokens to SPL?    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque praesentium nisi officiis maiores quia sapiente totam omnis vel sequi corporis ipsa incidunt reprehenderit recusandae maxime perspiciatis iste placeat architecto, mollitia delectus link ut ab quibusdam. Magnam cumque numquam tempore reprehenderit illo, unde cum omnis vel sed temporibus, repudiandae impedit nam ad enim porro, qui labore fugiat quod suscipit fuga necessitatibus. Perferendis, ipsum? Cum, reprehenderit. Sapiente atque quam vitae, magnam dolore consequatur temporibus harum odit ab id quo qui aspernatur aliquid officiis sit error asperiores eveniet quibusdam, accusantium enim recusandae quas ea est! Quaerat omnis, placeat vitae laboriosam doloremque recusandae mollitia minima!   Why do I need to settle my funds?    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque praesentium nisi officiis maiores quia sapiente totam omnis vel sequi corporis ipsa incidunt reprehenderit recusandae maxime perspiciatis iste placeat architecto, mollitia delectus link ut ab quibusdam. Magnam cumque numquam tempore reprehenderit illo, unde cum omnis vel sed temporibus, repudiandae impedit nam ad enim porro, qui labore fugiat quod suscipit fuga necessitatibus. Perferendis, ipsum? Cum, reprehenderit. Sapiente atque quam vitae, magnam dolore consequatur temporibus harum odit ab id quo qui aspernatur aliquid officiis sit error asperiores eveniet quibusdam, accusantium enim recusandae quas ea est! Quaerat omnis, placeat vitae laboriosam doloremque recusandae mollitia minima!   My balance did not update after my trade?    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque praesentium nisi officiis maiores quia sapiente totam omnis vel sequi corporis ipsa incidunt reprehenderit recusandae maxime perspiciatis iste placeat architecto, mollitia delectus link ut ab quibusdam. Magnam cumque numquam tempore reprehenderit illo, unde cum omnis vel sed temporibus, repudiandae impedit nam ad enim porro, qui labore fugiat quod suscipit fuga necessitatibus. Perferendis, ipsum? Cum, reprehenderit. Sapiente atque quam vitae, magnam dolore consequatur temporibus harum odit ab id quo qui aspernatur aliquid officiis sit error asperiores eveniet quibusdam, accusantium enim recusandae quas ea est! Quaerat omnis, placeat vitae laboriosam doloremque recusandae mollitia minima!   How can I list a market on Bonfida?    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque praesentium nisi officiis maiores quia sapiente totam omnis vel sequi corporis ipsa incidunt reprehenderit recusandae maxime perspiciatis iste placeat architecto, mollitia delectus link ut ab quibusdam. Magnam cumque numquam tempore reprehenderit illo, unde cum omnis vel sed temporibus, repudiandae impedit nam ad enim porro, qui labore fugiat quod suscipit fuga necessitatibus. Perferendis, ipsum? Cum, reprehenderit. Sapiente atque quam vitae, magnam dolore consequatur temporibus harum odit ab id quo qui aspernatur aliquid officiis sit error asperiores eveniet quibusdam, accusantium enim recusandae quas ea est! Quaerat omnis, placeat vitae laboriosam doloremque recusandae mollitia minima!   </p>",
+							label: "<p> What is Serum?    Serum is a decentralized exchange (DEX) built on Solana. Solana is a highly performant blockchain that allows Serum to have 100% on-chain orderbooks,network fees that costs a fraction of a penny, and lightning fast execution speeds.\nThe Serum ecosystem is completely permissionless where anybody can create their own tokens, list their own markets, and create their own GUI. To learn more about Serum visit https:\/\/projectserum.com\n   What is Bonfida?    Bonfida is the full product suite that bridges the gap between Serum, Solana, and the user. We are the flagship Serum GUI and the first to bring Solana data analytics to the field. Our API is used by some of the largest market makers in the space and has seen a growth of requests of 25% week over week.\nRead more about us at https:\/\/bonfida.medium.com\/bonfida-what-we-do-dc56c5c3779e\n   Is Bonfida safe?    Bonfida users maintain 100% control over their keys and coins. Bonfida will never be able to control or seize user funds.   How do I deposit fund?    Bonfida supports several wallets: Bonfida Wallet, Sollet and Solong. Simply deposit funds in your favourite wallet as you would for an Ethereum-based wallet. To use them on Bonfida, click on the Connect button on the top right hand corner. There is a drop-down list there to select the wallet you’d want to use.   What is the difference between limit and market order?    A market order is an order to buy or sell a token immediately. This type of order guarantees that the order will be executed, but does not guarantee the execution price, it will be executed at the best price available. A limit order is an order to buy or sell an asser at a specific price. To know which to use refer to our dedicated section (link)   What wallet can I connect?    You can connect several wallets:\n Sollet Bonfida Wallet     How do I convert ERC20 tokens to SPL?    The easiest way to convert your ERC20 to SPL (or the other way around) is to use the native convert function of Sollet.io.   Why do I need to settle my funds?    After doing a trade on Serum you need to Settle your funds otherwise they sit in an intermediary account. To do this, you can either click on the Settle Button on the Trade page or on the balances pages.\nNote that you can enable auto-settle on the top right corner of the screen.\n   My balance did not update after my trade?     Make sure that the trade was executed and is not resting as an open order Make sure to settle your funds, otherwise, the trade won’t reflect in your balances     How can I list a market on Bonfida?    Please reach out to us at contact@bonfida.com so we can integrate you to our API and GUI.   </p>",
 							url:"https:\/\/help.bonfida.com\/faq\/"
 						},
 						

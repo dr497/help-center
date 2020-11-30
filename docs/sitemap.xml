@@ -3,17 +3,12 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://help.bonfida.com/solible/create/</loc>
+    <loc>https://help.bonfida.com/wallet/convert/</loc>
     <lastmod>2020-11-26T11:02:05+06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://help.bonfida.com/orders/fees/</loc>
-    <lastmod>2020-01-05T10:42:26+06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://help.bonfida.com/wallet/convert/</loc>
+    <loc>https://help.bonfida.com/wallet/create/</loc>
     <lastmod>2020-11-26T11:02:05+06:00</lastmod>
   </url>
   
@@ -23,7 +18,27 @@
   </url>
   
   <url>
+    <loc>https://help.bonfida.com/orders/fees/</loc>
+    <lastmod>2020-01-05T10:42:26+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://help.bonfida.com/wallet/add-tokens/</loc>
+    <lastmod>2020-11-26T11:02:05+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://help.bonfida.com/solible/place-bid/</loc>
+    <lastmod>2020-11-26T11:02:05+06:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://help.bonfida.com/orders/settle/</loc>
+    <lastmod>2020-11-26T11:02:05+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://help.bonfida.com/wallet/connect/</loc>
     <lastmod>2020-11-26T11:02:05+06:00</lastmod>
   </url>
   
@@ -48,12 +63,22 @@
   </url>
   
   <url>
+    <loc>https://help.bonfida.com/solible/resell/</loc>
+    <lastmod>2020-11-26T11:02:05+06:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://help.bonfida.com/orders/cancel/</loc>
     <lastmod>2020-11-26T11:02:05+06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://help.bonfida.com/wallet/connect/</loc>
+    <loc>https://help.bonfida.com/solible/sales-types/</loc>
+    <lastmod>2020-11-26T11:02:05+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://help.bonfida.com/solible/listing/</loc>
     <lastmod>2020-11-26T11:02:05+06:00</lastmod>
   </url>
   
