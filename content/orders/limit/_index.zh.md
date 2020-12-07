@@ -1,15 +1,15 @@
 ---
-title: "Limit Orders"
+title: "限价订单"
 date: 2020-11-26T11:02:05+06:00
 lastmod: 2020-11-26T11:02:05+06:00
 weight: 3
 draft: false
 # search related keywords
-keywords: ["limit", "order", "placement"]
+keywords: ["限价", "订单", "下单"]
 ---
 
-The beauty of Serum is that it has a fully on-chain orderbook, which means that unlike DEXes based on automated market makers (AMMs) you have the ability to place a resting order on a live on-chain orderbook, just as you would on a traditional centralized exchange like FTX. You can choose the price you want to buy or sell at.
+Serum的迷人之处在于它拥有完整的链上订单薄，也就是说和基于自动做市商（AMM）的DEX不同的是，您可以在活跃的链上订单薄中进行挂单，就像在传统的中心化交易所进行的操作一样，例如FTX。您可以选择想要买入或卖出的价格。
 
 ![ftx-bonfida](ftx-bonfida.png)
 
-Once you’ve selected the price you want your order to be filled, that order will be sent out via a transaction and rest on the on-chain orderbook until the market hits your order.
+当您已经选择好订单的价格后，订单将会通过链上交易的形式发送到链上订单薄中，直到市场价格达到您的订单价格。
