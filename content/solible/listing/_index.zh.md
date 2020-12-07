@@ -1,20 +1,19 @@
 ---
-title: "Getting your NFT listed"
+title: "如何上线NFT"
 date: 2020-11-26T11:02:05+06:00
 lastmod: 2020-11-26T11:02:05+06:00
 weight: 6
 draft: false
 # search related keywords
-keywords: ["listing", "solible", "NFT"]
+keywords: ["上币", "solible", "NFT"]
 ---
 
-Having your NFT creation listed on [Solible](https://solible.com/#/) is possible and easily done.
+通过[Solible](https://solible.com/#/)e可以轻松上线您的NFT创作作品
+## 铸造您的通证
 
-## Mint your token
+在Solana上通过Bonfida可以实现一个很酷的功能，您可以铸造自己的通证并决定它的特征。
 
-A cool feature available on Solana through Bonfida, is to be able to mint your own token and decide on its characteristics.
-
-Accessible from the [Bonfida](https://bonfida.com/) header Token -> Mint, or [https://bonfida.com/mint](https://bonfida.com/mint) ; you just need to type in your SOL address, the total supply and the decimals.
+可以在[Bonfida](https://bonfida.com/)页面顶部菜单栏“通证 -> 铸造”，或者[https://bonfida.com/mint](https://bonfida.com/mint) 进行访问。您只需输入SOL地址、总发行量、以及小数位。
 
 ![list-1](list-1.png)
 
@@ -22,11 +21,12 @@ Accessible from the [Bonfida](https://bonfida.com/) header Token -> Mint, or [ht
 
 ![list-3](list-3.png)
 
-Congrats you just minted your token on the Solana blockchain.
+恭喜您刚刚在Solana区块链上发行了自己的通证。
 
-## List your NFT on Solible
+## 将您的NFT上线Solible
 
-A simple email to [contact@solible.com](mailto:contact@solible.com) with the object being NFL listing.
-Alongside your digital art high resolution file, let us also know both the creation name and the artist behind.
+只需简单的操作，将想要上线NFT的对象发送至contact@solible.com。
+除了高分辨的数字作品文件外，需要在邮件中注明作品名称和创作者。
 
-Check the source on NFT listing [here](https://solible.com/#/list-nft).
+关于NFT上线的内容可以点击[此处](https://solible.com/#/list-nft)进行查看。
+
