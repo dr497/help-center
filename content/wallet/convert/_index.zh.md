@@ -1,18 +1,18 @@
 ---
-title: "Convert your assets"
+title: "转换您的资产"
 date: 2020-11-26T11:02:05+06:00
 lastmod: 2020-11-26T11:02:05+06:00
 weight: 1
 draft: false
 # search related keywords
-keywords: ["convert", "tokens", "swap"]
+keywords: ["转换", "通证", "swap"]
 ---
 
-As of now, there are two ways to convert a token within the Serum ecosystem:
+目前，有两种方式可以在Serum的生态系统中进行通证转换：
 
 ## DEX
 
-The convert function within the [Bonfida GUI](https://bonfida.com/dex/#/) will **only appear once you have connected your wallet**.
+在[Bonfida 前端接口](https://bonfida.com/dex/#/)中转换功能仅在连接钱包之后才会出现。
 
 ![convert-1](convert-1.png)
 
@@ -20,12 +20,12 @@ The convert function within the [Bonfida GUI](https://bonfida.com/dex/#/) will *
 
 ## SWAP
 
-Also accessible from the header of Bonfida, [Serum Swap](https://swap.bonfida.com) has numerous listings available (including BTC, ETH, SOL, SRM, YFI, LINK, UNI ...) for you to try
+也可以通过Bonfida页面顶部进行访问，Serum Swap](https://swap.bonfida.com)中上线了大量的通证供您尝试（包括BTC、ETH、SOL、SRM、YFI、LINK、UNI......）。
 
 ![convert-3](convert-3.png)
 
 ![convert-4](convert-4.png)
 
-With the pools in [Serum Swap](https://swap.bonfida.com), you may also provide liquidity for fees and an estimated APR averaging from 20 to 30% on some pairs.
+在[Serum Swap](https://swap.bonfida.com)池中，您可以提供流动性，有些交易对的平均年化收益预计在20%-30%之间。
 
-Read more on [Project Serum Swap](https://swap.bonfida.com/#) AMM and its pool on [Serum Academy](https://serum-academy.com/en/serum-swap/)
+访问[Serum学院](https://serum-academy.com/en/serum-swap/)，了解更多关于[Project Serum Swap](https://swap.bonfida.com/#)AMM 以及其资金池的信息。
