@@ -1,31 +1,32 @@
 ---
-title: "Create your wallet"
+title: "创建您的钱包"
 date: 2020-11-26T11:02:05+06:00
 lastmod: 2020-11-26T11:02:05+06:00
 weight: 1
 draft: false
 # search related keywords
-keywords: ["create, wallet"]
+keywords: ["创建, 钱包"]
 ---
 
-Welcome to the Bonfida experience of Serum - a fully decentralized exchange with on-chain orderbooks powered by Solana.
+欢迎来到Bonfida进行Serum的体验 - Serum是一个完全去中心化的交易平台，由Solana提供链上订单薄。
 
-To get started, we’ll walk you through setting up a [Bonfida wallet](https://bonfida.com/wallet/) to interact with the Solana blockchain as well as get you started with an airdrop to fund the network fees of your first bunch of transactions.
+首先，我们将引导您设置一个[Bonfida钱包](https://bonfida.com/wallet/)，用来和Solana区块链进行交互。同时会向钱包进行空投，可以支持前几笔交易的矿工费用。
 
-Access the Bonfida wallet: [https://bonfida.com/wallet/](https://bonfida.com/wallet/)
+访问Bonfida钱包：[https://bonfida.com/wallet/](https://bonfida.com/wallet/)
 
-Once there, you will be given your 12 seed words for your Solana/SPL Wallet. As always, store them safely, then check the disclaimer box and continue.
+当打开钱包页面后，您将会得到Solana/SPL钱包的12个助记词。像平时一样，将它们进行安全妥善的保管。接下来查看免责声明，并进行下一步。
 
 ![create-1](create-1.png)
 
-Before the creation, you will be given the opportunity to create a password for your Bonfida wallet. This password will later be asked to approve transactions from the pop up as a separate tab.
+在创建之前，您可以为Bonfida钱包创建密码。这个密码将在接下来批准交易时的弹窗中使用。
 
-_Note: This password is entirely optional. Feel free to leave the space blank if you do not wish to have a password._
+_注意：密码是一个可选项。如果您不想要设置密码，完全可以不填写任何内容。_
 
 ![create-2](create-2.png)
 
-Done! And for the quick eyes, you already know what’s next! Look closer and click on the top right to claim your airdrop.
+完成！对于目光敏锐的小伙伴来说，应该已经知道下一步是什么啦！仔细观察并点击右上角进行空投。
 
 ![create-3](create-3.png)
 
-Done again! You are now set for a bunch of transactions with the airdropped SOL.
+全部完成！现在您可以通过空投的SOL开始进行交易了。
+
