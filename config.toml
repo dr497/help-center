@@ -7,7 +7,7 @@ theme = "Dot"
 # site title
 title = "Bonfida Help Center"
 # disable language
-disableLanguages = ["fr"]
+disableLanguages = []
 # google analytics
 googleAnalytics = "" # paste your analytics ID here. (Ex: UA-123-45)
 # unsafe html
@@ -105,66 +105,66 @@ weight =6
 
 
 ################################### Franch Language ######################
-[Languages.fr]
-languageName = "Fr"
-languageCode = "fr-fr"
+[Languages.zh]
+languageName = "Zh"
+languageCode = "zh-cn"
 weight = 2
 copyright = "Copyright © 2020 un thème Hugo par [Gethugothemes](https://gethugothemes.com/)"
 
 # banner
-[Languages.fr.params.banner]
-title = "Comment pouvons nous aider?"
-subtitle = "Trouvez rapidement des conseils et des réponses auprès de notre équipe d'assistance ou contactez-nous."
+[Languages.zh.params.banner]
+title = "Support Center & Knowledge base"
+subtitle = "Find advice and answers from our support team fast or get in touch"
 bg_image = "images/banner.jpg"
-placeholder = "Avoir une question? Il suffit de demander ici ou de saisir les termes"
+placeholder = "Have a question? Just ask here or enter terms"
 
 # call to action
-[Languages.fr.params.cta]
+[Languages.zh.params.cta]
 enable = true
-title = "Vous n'avez pas trouvé de réponse à votre question?"
-content = "Contactez-nous pour plus de détails sur les services supplémentaires et la tarification du travail personnalisé"
+title = "Didn't find an answer to your question?"
+content = "Contact our 24/7 customer support line."
 # call to action button
-[Languages.fr.params.cta.button]
+[Languages.zh.params.cta.button]
 enable = true
-label = "Contactez nous"
+label = "contact us"
 link = "contact"
 
 
 ################## french navigation #################
-[[Languages.fr.menu.main]]
-name = "Accueil"
+[[Languages.zh.menu.main]]
+name = "Home"
 url = "/"
 weight = 1
 
-[[Languages.fr.menu.main]]
+[[Languages.zh.menu.main]]
 name = "Faq"
 url = "faq"
 weight = 2
 
-[[Languages.fr.menu.main]]
+[[Languages.zh.menu.main]]
 name = "contact"
 url = "contact"
 weight = 3
 
 # Dropdown menu
-[[Languages.fr.menu.main]]
+[[Languages.zh.menu.main]]
 weight = 4
 name = "docs"
 hasChildren = true
 
-  [[Languages.fr.menu.main]]
+  [[Languages.zh.menu.main]]
   parent = "docs"
   name = "Installation"
   url = "installation"
   weight = 1
 
-  [[Languages.fr.menu.main]]
+  [[Languages.zh.menu.main]]
   parent = "docs"
   name = "Billing and Pricing"
   url = "billing-pricing"
   weight = 2
 
-  [[Languages.fr.menu.main]]
+  [[Languages.zh.menu.main]]
   parent = "docs"
   name = "Features"
   url = "features"
