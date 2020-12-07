@@ -1,57 +1,52 @@
 ---
-title: "Frequently Asked Questions"
+title: "常见问题"
 draft: false
 ---
 
-{{< faq "What is Serum?" >}}
-Serum is a decentralized exchange (DEX) built on Solana. Solana is a highly performant blockchain that allows Serum to have 100% on-chain orderbooks, network fees that costs a fraction of a penny, and lightning fast execution speeds.
-
-The Serum ecosystem is completely permissionless where anybody can create their own tokens, list their own markets, and create their own GUI. To learn more about Serum visit https://projectserum.com
+{{< faq "什么是Serum？" >}} 
+Serum是在Solana上搭建的去中心化交易所（DEX）。Solana是一个高性能的区块链，可以让Serum拥有100%的链上订单薄、零点几分的矿工费、以及闪电般的网络执行速度。
+Serum是一个完全无需许可的生态，任何人都可以在上面创建自己的通证，上线自己的交易市场，并创建自己的前端接口。想要了解更多Serum信息，请访问 https://projectserum.com。
 {{</ faq >}}
 
-{{< faq "What is Bonfida?" >}}
-Bonfida is the full product suite that bridges the gap between Serum, Solana, and the user. We are the flagship Serum GUI and the first to bring Solana data analytics to the field. Our API is used by some of the largest market makers in the space and has seen a growth of requests of 25% week over week.
-
-Read more about us at https://bonfida.medium.com/bonfida-what-we-do-dc56c5c3779e
+{{< faq "Bonfida是什么？" >}} 
+Bonfida是一款帮助缩小Serum、Solana、以及用户之间差异的完整产品套件。我们是Serum前端接口的旗舰产品，也是第一个引入Solana数据分析的产品。目前，很多业内大型做市商正在使用我们的API，并且在过去的一段时间内，每周需求的增长率都达到了25%。阅读更多关于我们的信息，请访问：
+https://bonfida.medium.com/bonfida-what-we-do-dc56c5c3779e。 
 {{</ faq >}}
 
-{{< faq "Is Bonfida safe?" >}}
-Bonfida users maintain 100% control over their keys and coins. Bonfida will never be able to control or seize user funds.
+{{< faq "Bonfida安全吗？" >}} 
+使用Bonfida的用户对私钥和通证有100%的控制权。Bonfida完全没有控制或挪用用户资金的可能性。
 {{</ faq >}}
 
-{{< faq "How do I deposit fund?" >}}
-Bonfida supports several wallets: Bonfida Wallet, Sollet and Solong. Simply deposit funds in your favourite wallet as you would for an Ethereum-based wallet. To use them on Bonfida, click on the **Connect** button on the top right hand corner. There is a drop-down list there to select the wallet you’d want to use.
+{{< faq "如何存入资金？" >}} 
+Bonfida支持多种钱包：Bonfida钱包、Sollet、Solong。就像使用基于以太坊的钱包一样简单，只需要根据个人喜好将资金存入您想使用的钱包中。点击右上角的**连接**按钮，即可在Bonfida上使用。点击后将出现一个下拉菜单，可以选择想要使用的钱包。
 {{</ faq >}}
 
-{{< faq "What is the difference between limit and market order?" >}}
-A market order is an order to buy or sell a token immediately. This type of order guarantees that the order will be executed, but does not guarantee the execution price, it will be executed at the best price available. A limit order is an order to buy or sell an asset at a specific price. To know which to use refer to our [dedicated section](/orders/)
+{{< faq "限价订单和市价订单有什么区别？" >}} 
+市价订单是马上买入或卖出，这种形式保证了订单会被立刻执行，但无法保证执行的价格，将按照可选择的最优价格执行。限价订单指的是按照指定的价格买卖资产。想要了解如何选择，请参考我们的[相关专题](/orders/)。 
 {{</ faq >}}
 
-{{< faq "What wallet can I connect?" >}}
-You can connect several wallets:
-
-- Sollet
-- Bonfida wallet
-- Solong wallet
-  {{</ faq >}}
-
-{{< faq "How do I convert ERC20 tokens to SPL?" >}}
-The easiest way to convert your ERC20 to SPL (or the other way around) is to use the native convert function of [Sollet.io](https://sollet.io).
+{{< faq "我可以连接哪些钱包？" >}} 
+您可以选择以下钱包：
+- Sollet 钱包
+- Bonfida 钱包
+- Solong 钱包 
 {{</ faq >}}
 
-{{< faq "Why do I need to settle my funds?" >}}
-After doing a trade on Serum you need to Settle your funds otherwise they sit in an intermediary account. To do this, you can either click on the Settle Button on the Trade page or on the balances pages.
-
-Note that you can enable auto-settle on the top right corner of the screen.
+{{< faq "如何将ERC20的通证转换成SPL通证？" >}} 
+将ERC20通证转换成SPL通证（反之亦然）最简单的方式，是使用Sollet.io中的本地转换功能。
 {{</ faq >}}
 
-{{< faq "My balance did not update after my trade?" >}}
-
-- Make sure that the trade was executed and is not resting as an open order
-- Make sure to settle your funds, otherwise, the trade won’t reflect in your balances
-
+{{< faq "为什么需要对资金进行结算？" >}}
+在Serum上进行交易后，您需要对资金进行结算，否则资金将会存放在临时账户中。您可以通过点击交易页面或余额页面的结算按钮进行结算。
+需要注意的是，您可以在页面右上角开启自动结算。
 {{</ faq >}}
 
-{{< faq "How can I list a market on Bonfida?" >}}
-Please reach out to us at [contact@bonfida.com](mailto:contact@bonfida.com) so we can integrate you to our API and GUI.
+{{< faq "为什么交易后账户余额没有更新？" >}}
+确认交易已经执行，而不是处于未完成订单的状态
+确认资金已经进行结算，否则交易信息不会在余额中进行更新
+{{</ faq >}}
+
+
+{{< faq "如何在Bonfida中上线交易市场？" >}} 
+请通过 [contact@bonfida.com](mailto:contact@bonfida.com) 联系我们，以便我们可以将其整合在API和前端接口中。
 {{</ faq >}}
