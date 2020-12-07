@@ -1,23 +1,24 @@
 ---
-title: "Orderbook system"
+title: "订单簿系统"
 date: 2020-11-26T11:02:05+06:00
 lastmod: 2020-11-26T11:02:05+06:00
 weight: 1
 draft: false
 # search related keywords
-keywords: ["orderbook", "solible", "NFT"]
+keywords: ["订单簿", "solible", "NFT"]
 ---
 
-Solible is a real time NFT auction house implemented with a trading orderbook system, similar to any exchanges you might use.
+Solible是使用交易订单薄系统进行实时NFT拍卖的解决方案，就像您过去使用过的任何交易所一样。
 
 ![orderbook-1](orderbook-1.png)
 
-As any order book you will have, for each items on sale, from top to bottom:
+像任何订单薄一样，每一个在售中的商品从上到下都会有：
+- 卖单（例如：2500）
+- 最新成交（例如：900）
+- 买单（例如：120）
 
-- Sell orders (e.g 2500)
-- Last trade (e.g 900)
-- Buy orders (e.g 120)
+_根据上面的例子，如果出价低于2500，将会成为当前委托；当出价为2500（或者超过2500）时，将会被视为市价买入。_
 
-_With the above example, placing a bid lower than 2,500, it could be considered as an open order ; while placing a bid at 2,500 (or over) as a market buy._
+_如果卖方将2500的限价卖出改为120，在这种情况下，将会导致以120的订单进行买入。_
 
-_A seller changing its 2,500 limit sell to 120, would, in this case, result in a buy from the 120 order._
+
