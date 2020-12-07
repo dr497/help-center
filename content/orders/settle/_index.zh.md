@@ -1,19 +1,21 @@
 ---
-title: "Settlement"
+title: "结算"
 date: 2020-11-26T11:02:05+06:00
 lastmod: 2020-11-26T11:02:05+06:00
 weight: 2
 draft: false
 # search related keywords
-keywords: ["settle", "settlement", "funds"]
+keywords: ["结算", "结算", "余额"]
 ---
 
-After a trade is executed on Serum, the funds that result from the outcome of that trade does not automatically get credited to your connected wallet.
+在Serum上执行交易之后，交易后的资金并不会自动进入您关联的钱包中。
 
 ![balance-standalone](balance-standalone.png)
 
-Let’s look at this picture to explain. Your **wallet balance** is what you currently have in the wallet, whereas the **unsettled balance** represents the funds from the trades you’ve executed on that market.
+我们根据这张图片内容进行下说明。**钱包余额**指的是目前您钱包中的资金，而**未结算余额**代表的是在执行交易而产生或者结余的资金。
 
-Example: In the SRM/USDT market. You place an order to buy 100 SRM with wrapped USDT. This 100 SRM will then appear in the **unsettled balance**.
+例如：在SRM/USDT市场中，您下了一个订单，通过wrapped USDT来购买100个SRM。这100个SRM将会出现在**未结算余额**中。
 
-How do you get the funds to your wallet then? You’ll have to click **Settle**, and execute a transaction that will send the funds to the wallet you’ve connected to Serum.
+接下来要如何将资金转到钱包中呢？您需要点击**结算**，将资金转移到和Serum连接的钱包当中。
+
+
