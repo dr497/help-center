@@ -43,7 +43,6 @@ contact_form_action = "#" # contact form works with : https://formspree.io
 icon = "ti-twitter-alt" # themify icon pack : https://themify.me/themify-icons
 link = "https://twitter.com/bonfidadotcom"
 
-
 ################################ English Language ######################
 [Languages.en]
 languageName = "En"
@@ -53,36 +52,36 @@ weight = 1
 
 # banner
 [Languages.en.params.banner]
-title = "帮助 & 知识中心"
-subtitle = "向我们找寻您遇到问题的答案"
+title = "Support Center & Knowledge base"
+subtitle = "Find advice and answers from our support team fast or get in touch"
 bg_image = "images/banner.jpg"
-placeholder = "您有什么问题吗？请在这里询问"
+placeholder = "Have a question? Just ask here or enter terms"
 
 # call to action
 [Languages.en.params.cta]
 enable = true
-title = "没有找到您问题的答案吗？"
-content = "请联系我们，我们24/7在线。"
+title = "Didn't find an answer to your question?"
+content = "Contact our 24/7 customer support line."
 # call to action button
 [Languages.en.params.cta.button]
 enable = true
-label = "联系我们"
-link = "联系"
+label = "contact us"
+link = "contact"
 
 
 ################## english navigation #################
 [[Languages.en.menu.main]]
-name = "主页"
+name = "Home"
 url = "/"
 weight = 1
 
 [[Languages.en.menu.main]]
-name = "订单"
+name = "orders"
 url = "orders"
 weight = 2
 
 [[Languages.en.menu.main]]
-name = "钱包"
+name = "wallet"
 url = "wallet"
 weight = 3
 
@@ -92,24 +91,24 @@ url = "solible"
 weight =4
 
 [[Languages.en.menu.main]]
-name = "常见问题"
+name = "Faq"
 url = "faq"
 weight = 5
 
 [[Languages.en.menu.main]]
-name = "联系我们"
+name = "contact"
 url = "contact"
 weight =6
 
 
 
 
-################################### Chinese Language ######################
+################################ Chinese Language ######################
 [Languages.zh]
-languageName = "Zh"
-languageCode = "zh-cn"
-weight = 2
-copyright = "Copyright © 2020 un thème Hugo par [Gethugothemes](https://gethugothemes.com/)"
+languageName = "zh"
+languageCode = "zh-tw"
+weight = 1
+
 
 # banner
 [Languages.zh.params.banner]
@@ -126,46 +125,37 @@ content = "请联系我们，我们24/7在线。"
 # call to action button
 [Languages.zh.params.cta.button]
 enable = true
-label = "contact us"
-link = "contact"
+label = "联系我们"
+link = "联系"
 
 
-################## french navigation #################
+################## Chinese navigation #################
 [[Languages.zh.menu.main]]
-name = "Home"
+name = "主页"
 url = "/"
 weight = 1
 
 [[Languages.zh.menu.main]]
-name = "Faq"
-url = "faq"
+name = "订单"
+url = "orders"
 weight = 2
 
 [[Languages.zh.menu.main]]
-name = "contact"
-url = "contact"
+name = "钱包"
+url = "wallet"
 weight = 3
 
-# Dropdown menu
 [[Languages.zh.menu.main]]
-weight = 4
-name = "docs"
-hasChildren = true
+name = "solible"
+url = "solible"
+weight =4
 
-  [[Languages.zh.menu.main]]
-  parent = "docs"
-  name = "Installation"
-  url = "installation"
-  weight = 1
+[[Languages.zh.menu.main]]
+name = "常见问题"
+url = "faq"
+weight = 5
 
-  [[Languages.zh.menu.main]]
-  parent = "docs"
-  name = "Billing and Pricing"
-  url = "billing-pricing"
-  weight = 2
-
-  [[Languages.zh.menu.main]]
-  parent = "docs"
-  name = "Features"
-  url = "features"
-  weight = 3
+[[Languages.zh.menu.main]]
+name = "联系我们"
+url = "contact"
+weight =6
