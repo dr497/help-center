@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+  <head>
+  <meta charset="utf-8">
+  <meta charset="description" content="Bonfida Help Center - We are here to help you trade on Serum">
+  <meta charset="keywords" content="Bonfida Help Center, Bonfida, Help, Support, Customer, ZenDesk, Serum, SRM, Get started, Beginner, Problem, How, How to, ?, 24/7, Customer Support">
+  <title>Bonfida帮助中心</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="generator" content="Hugo 0.70.0" />
+
+  <!-- ** CSS Plugins Needed for the Project ** -->
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://help.bonfida.com/plugins/bootstrap/bootstrap.min.css">
+
+  <!-- themefy-icon -->
+  <link rel="stylesheet" href="https://help.bonfida.com/plugins/themify-icons/themify-icons.css">
+
+  <!--Favicon-->
+  <link rel="icon" href="https://help.bonfida.com/images/favicon.png" type="image/x-icon">
+
+  <!-- fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel="stylesheet">
+
+  <style>
+  :root{
+    --primary-color:#1d0da8;
+    --body-color:#f9f9f9;
+    --text-color:#636363;
+    --text-color-dark:#242738;
+    --white-color:#ffffff;
+    --light-color:#f8f9fa;
+    --font-family:Lato;
+  }
+  </style>
+
+<!-- Main Stylesheet -->
+
+<link href="https://help.bonfida.com/css/style.min.css" rel="stylesheet" media="screen"/>
+
+<!-- ** JS Plugins Needed for the Project ** -->
+
+<!-- jquiry -->
+<script src="https://help.bonfida.com/plugins/jquery/jquery-1.12.4.js"></script>
+
+<!-- jquary ui -->
+<script src="https://help.bonfida.com/plugins/jquery/jquery-ui.js"></script>
+
+<!-- Bootstrap JS -->
+<script src="https://help.bonfida.com/plugins/bootstrap/bootstrap.min.js"></script>
+
+<!-- match-height JS -->
+<script src="https://help.bonfida.com/plugins/match-height/jquery.matchHeight-min.js"></script>
+
+
+
+
+  <!-- create /layouts/partials/overrides/header.html in your own theme or root directory to add your custom content here -->
+
+
+</head>
+
+  
+  <body>
+    
+    <!-- header -->
+    <header class="banner overlay bg-cover" data-background="https://help.bonfida.com/images/banner.jpg">
+      <nav class="navbar navbar-expand-md navbar-dark">
+  <div class="container">
+    <a class="navbar-brand px-2" href="/zh">
+      
+      
+      
+      
+      <img class="img-fluid" src="https://help.bonfida.com/logo/logo-big.svg "
+        alt="Bonfida帮助中心">
+      
+      
+    </a>
+    <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation"
+      aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse text-center" id="navigation">
+      <ul class="navbar-nav ml-auto">
+        
+        
+        <li class="nav-item">
+          <a class="nav-link text-dark" href="https://help.bonfida.com/zh/">主页</a>
+        </li>
+        
+        
+        
+        <li class="nav-item">
+          <a class="nav-link text-dark" href="https://help.bonfida.com/zh/orders">订单</a>
+        </li>
+        
+        
+        
+        <li class="nav-item">
+          <a class="nav-link text-dark" href="https://help.bonfida.com/zh/wallet">钱包</a>
+        </li>
+        
+        
+        
+        <li class="nav-item">
+          <a class="nav-link text-dark" href="https://help.bonfida.com/zh/solible">solible</a>
+        </li>
+        
+        
+        
+        <li class="nav-item">
+          <a class="nav-link text-dark" href="https://help.bonfida.com/zh/faq">常见问题</a>
+        </li>
+        
+        
+        
+        <li class="nav-item">
+          <a class="nav-link text-dark" href="https://help.bonfida.com/zh/contact">联系我们</a>
+        </li>
+        
+        
+      </ul>
+      
+      <select class="lang-list " id="select-language"
+        onchange="location = this.value;">
+        
+        
+        
+        
+        
+        
+        
+        
+        <option id="en" value="https://help.bonfida.com/">En</option>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <option id="zh" value="https://help.bonfida.com/zh/" selected>zh
+        </option>
+        
+        
+        
+        
+      </select>
+      
+    </div>
+  </div>
+</nav>
+
+      <!-- banner -->
+<div class="container section">
+	<div class="row">
+		<div class="col-lg-8 text-center mx-auto">
+			<h1 class="text-white mb-3">帮助 &amp; 知识中心</h1>
+			<p class="text-white mb-4">向我们找寻您遇到问题的答案</p>
+			<div class="position-relative">
+				<input id="search" class="form-control" placeholder="您有什么问题吗？请在这里询问">
+				<i class="ti-search search-icon"></i>
+				
+				
+				
+				
+				<script>
+					$(function() {
+					var projects = [
+						
+						{
+							value: "创建您的钱包",
+							label: "<p>欢迎来到Bonfida进行Serum的体验 - Serum是一个完全去中心化的交易平台，由Solana提供链上订单薄。\n首先，我们将引导您设置一个Bonfida钱包，用来和Solana区块链进行交互。同时会向钱包进行空投，可以支持前几笔交易的矿工费用。\n访问Bonfida钱包：https:\/\/bonfida.com\/wallet\/\n当打开钱包页面后，您将会得到Solana\/SPL钱包的12个助记词。像平时一样，将它们进行安全妥善的保管。接下来查看免责声明，并进行下一步。\n在创建之前，您可以为Bonfida钱包创建密码。这个密码将在接下来批准交易时的弹窗中使用。\n注意：密码是一个可选项。如果您不想要设置密码，完全可以不填写任何内容。\n完成！对于目光敏锐的小伙伴来说，应该已经知道下一步是什么啦！仔细观察并点击右上角进行空投。\n全部完成！现在您可以通过空投的SOL开始进行交易了。\n</p><p>创建, 钱包</p>",
+							url:"https:\/\/help.bonfida.com\/zh\/wallet\/create\/"
+						},
+						
+						{
+							value: "订单簿系统",
+							label: "<p>Solible是使用交易订单薄系统进行实时NFT拍卖的解决方案，就像您过去使用过的任何交易所一样。\n像任何订单薄一样，每一个在售中的商品从上到下都会有：\n 卖单（例如：2500） 最新成交（例如：900） 买单（例如：120）  根据上面的例子，如果出价低于2500，将会成为当前委托；当出价为2500（或者超过2500）时，将会被视为市价买入。\n如果卖方将2500的限价卖出改为120，在这种情况下，将会导致以120的订单进行买入。\n</p><p>订单簿</p><p>solible</p><p>NFT</p>",
+							url:"https:\/\/help.bonfida.com\/zh\/solible\/orderbook\/"
+						},
+						
+						{
+							value: "转换您的资产",
+							label: "<p>目前，有两种方式可以在Serum的生态系统中进行通证转换：\nDEX 在Bonfida 前端接口中转换功能仅在连接钱包之后才会出现。\nSWAP 也可以通过Bonfida页面顶部进行访问，Serum Swap](https:\/\/swap.bonfida.com)中上线了大量的通证供您尝试（包括BTC、ETH、SOL、SRM、YFI、LINK、UNI\x26hellip;\x26hellip;）。\n在Serum Swap池中，您可以提供流动性，有些交易对的平均年化收益预计在20%-30%之间。\n访问Serum学院，了解更多关于Project Serum SwapAMM 以及其资金池的信息。\n</p><p>转换</p><p>通证</p><p>swap</p>",
+							url:"https:\/\/help.bonfida.com\/zh\/wallet\/convert\/"
+						},
+						
+						{
+							value: "手续费",
+							label: "<p>矿工费用取决于底层区块链以及当时网络的吞吐量。通过Solana的核心技术 ，在Serum DEX中平均每笔交易的网络手续费大约为0.00001美元。这意味着目前在Bonfida上空投的0.004SOL（大约价值0.00764美元），理论上可以满足764笔交易的手续费。\n当您进行以下操作时，将产生矿工费用：\n 发出订单 取消订单 交易后结算资金 向基于Solana的钱包发送\/充值资金  </p><p>手续费, 矿工费</p>",
+							url:"https:\/\/help.bonfida.com\/zh\/orders\/fees\/"
+						},
+						
+						{
+							value: "出价",
+							label: "<p>需要连接到您的SPL钱包后，才可以对NFT进行出价。连接完成后，只需输入想要竞拍的的价格和数量。\n提交订单后，需要进行交易批准，一旦进行确认，就会在未完成订单表以及订单薄中看到您的订单。\n如果把拍卖品的价格设置为预先确定的市场价格（例如：Serum Ledger Nano X的价格为 50 SRM），按照这个价格进行拍卖将会导致自动购买。\n您需要从余额中进行NFT结算，才可以放到钱包中。请参阅通证结算的相关文章。\n低于市场价格进行拍卖，或者提交要约进行倒计时拍卖，都将成为当前委托。当倒计时为零的时候，最高出价者将会自动获得通证，未成功的出价将会作为未完成订单保存在订单薄中。\n</p><p>出价</p><p>solible</p><p>订单</p><p>买</p><p>NFT</p>",
+							url:"https:\/\/help.bonfida.com\/zh\/solible\/place-bid\/"
+						},
+						
+						{
+							value: "添加通证",
+							label: "<p>当你开始使用标准Bonfida钱包时，默认只有一个SOL地址。这类似于 MetaMask只有以太坊的部分。想要添加通证，需要进入钱包页面，点击“添加通证”，您将会看到有二十多个热门币种的清单。如果您看到了需要的通证，请点击“添加”。\n在添加通证之前，您需要展开来查看它的铸造地址。\nERC20 您可以在Bonfida钱包中添加ERC20通证，接下来这个通证地址会自动转换成Solana版本（这将是映射的通证）。\n手动输入 如果想要添加默认列表之外的通证，您需要访问手动输入界面，通过和MetaMask相同的方式进行操作。\n</p><p>添加</p><p>添加</p><p>通证</p>",
+							url:"https:\/\/help.bonfida.com\/zh\/wallet\/add-tokens\/"
+						},
+						
+						{
+							value: "结算",
+							label: "<p>在Serum上执行交易之后，交易后的资金并不会自动进入您关联的钱包中。\n我们根据这张图片内容进行下说明。钱包余额指的是目前您钱包中的资金，而未结算余额代表的是在执行交易而产生或者结余的资金。\n例如：在SRM\/USDT市场中，您下了一个订单，通过wrapped USDT来购买100个SRM。这100个SRM将会出现在未结算余额中。\n接下来要如何将资金转到钱包中呢？您需要点击结算，将资金转移到和Serum连接的钱包当中。\n</p><p>结算</p><p>结算</p><p>余额</p>",
+							url:"https:\/\/help.bonfida.com\/zh\/orders\/settle\/"
+						},
+						
+						{
+							value: "兑换",
+							label: "<p>可以通过访问拍卖页面进行商品兑换。在这里我们将使用Serum Ledger Nano X举例。\n首先，需要连接您持有通证的钱包，一旦连接完成，兑换按钮将变成可用状态。\n接下来，在弹出的表格中填写您的配送信息并提交。\n最后，批准交易。一旦交易确认，就意味着您已经成功的兑换了NFT。现在只需要等待它快递至您的地址。在兑换 NFT 24小时内，您将会收到一封确认邮件。\n</p><p>兑换</p><p>nft</p><p>solible</p><p>NFT</p>",
+							url:"https:\/\/help.bonfida.com\/zh\/solible\/redeem\/"
+						},
+						
+						{
+							value: "连接您的钱包",
+							label: "<p>Bonfida钱包可以连接Bonfida的全套产品 - 目前包括Bonfida DEX、Swap、以及基于Serum搭建的NFT交易所Solible。\nBonfida DEX \x26amp; Solible 所有Bonfida产品在右上角都有一个下拉菜单，您可以选择想要连接的钱包，默认的是Bonfida钱包。\n在点击“连接”之后，会出现确认按钮。\n当您忘记密码、忘记账户、或者意外清空了浏览器缓存时，可以使用恢复已有账户功能。您需要输入助记词才可以使用该功能。\n忘记密码？ 点击恢复已有账户，输入您的助记词，接下选择一个密码。请注意，密码是可选的。\n切换账户 Bonfida钱包支持多个账户（可以理解为类似FTX交易所的子账户）。\n</p><p>连接</p><p>钱包</p>",
+							url:"https:\/\/help.bonfida.com\/zh\/wallet\/connect\/"
+						},
+						
+						{
+							value: "限价订单",
+							label: "<p>Serum的迷人之处在于它拥有完整的链上订单薄，也就是说和基于自动做市商（AMM）的DEX不同的是，您可以在活跃的链上订单薄中进行挂单，就像在传统的中心化交易所进行的操作一样，例如FTX。您可以选择想要买入或卖出的价格。\n当您已经选择好订单的价格后，订单将会通过链上交易的形式发送到链上订单薄中，直到市场价格达到您的订单价格。\n</p><p>限价</p><p>订单</p><p>下单</p>",
+							url:"https:\/\/help.bonfida.com\/zh\/orders\/limit\/"
+						},
+						
+						{
+							value: "如何发送或者接收资产",
+							label: "<p>现在您已经拥有了第一个Bonfida钱包（以及一些免费的$SOL），可以在Solana区块链上存入一些资产，并通过Bonfida和Serum进行交互。\n接收\x26amp;发送（钱包） 将资产存入Bonfida钱包十分简单。以SOL为例 - 只需使用您提供的存入地址，可以从其它任何区块链上进行转入。如果想要存入ETH来获得更多的SOL，可以将MetaMask连接到Bonfida钱包中，直接将本地的ETH转换成SOL。这种转换需要同时支付以太坊和Solana矿工费用。\n发送通证也是类似的流程，就像您之前用过的其它钱包\/区块链一样。同时，也需要您像往常一样再次检查钱包地址。您还可以通过连接MetaMask，将SOL转换成本地的ETH。\n接收\x26amp;发送（DEX） 为了让Bonfida用户获得更加流畅的交易体验，您可以在Bonfida的“钱包”页面直接取出资产。\n只需要简单的填写所需的通证数量以及收款地址即可。\n</p><p>钱包</p><p>发送</p><p>接收</p><p>转账</p>",
+							url:"https:\/\/help.bonfida.com\/zh\/wallet\/receive-send\/"
+						},
+						
+						{
+							value: "市价订单",
+							label: "<p>我们来假设一下，假如您需要立即执行一笔交易，并又不想等待太久才完成成交。Bonfida是目前是唯一一个可以提供市价订单的Serum前端接口。 事实上，市价订单仅仅是把您想要执行的交易扔到订单薄中，根据现有的市场流动性来完成交易。您不需要等待订单完成，可以把它看做是一个Swap，只不过需要留意可能会发生的潜在滑点。\n</p><p>市价</p><p>订单</p><p>下单</p>",
+							url:"https:\/\/help.bonfida.com\/zh\/orders\/market\/"
+						},
+						
+						{
+							value: "转售您的NFT",
+							label: "<p>Connect your wallet to Solible, then from the item page click on Sell in the trade form. Enter the price and size the you want to sell, and click on the Sell button. 将您的钱包连至Solible，接下来在商品页面点击交易表格中的卖出。输入您想要卖出的价格和数量，点击卖出按钮。\n在批准交易后，您可以在订单薄中的卖单以及当前委托订单中看到这笔订单。\n当有人购买了您的通证，这笔资金将会进入到未结算余额中。您需要在商品页面中进行结算，否则这笔资金无法出现在您的余额中。\n</p><p>转售</p><p>solible</p><p>卖出</p><p>订单</p><p>NFT</p>",
+							url:"https:\/\/help.bonfida.com\/zh\/solible\/resell\/"
+						},
+						
+						{
+							value: "取消订单",
+							label: "<p>当限价订单还在订单薄的时候，您也许会改变主意，或者想要修改交易。想要移除订单，只需要简单的点击一下“取消”按钮，这笔交易将会进行广播并从订单薄中移除。\n</p><p>取消</p><p>订单</p>",
+							url:"https:\/\/help.bonfida.com\/zh\/orders\/cancel\/"
+						},
+						
+						{
+							value: "售卖形式",
+							label: "<p>拍卖 Comparable to many other online auctions, an auction on Solible consists of a bid competition in between interested participants that will reward the highest bidder at the countdown expiration. 与很多其它的在线拍卖相比，Solible的拍卖在感兴趣的参与者之间进行竞拍，这种方式可以在倒计时结束前奖励出价最高的竞拍者。\n这里有一个截止时间来停止接收买单。\n</p><p>销售</p><p>形式</p><p>solible</p><p>NFT</p>",
+							url:"https:\/\/help.bonfida.com\/zh\/solible\/sales-types\/"
+						},
+						
+						{
+							value: "如何上线NFT",
+							label: "<p>通过Soliblee可以轻松上线您的NFT创作作品\n铸造您的通证 在Solana上通过Bonfida可以实现一个很酷的功能，您可以铸造自己的通证并决定它的特征。\n可以在Bonfida页面顶部菜单栏“通证 -\x26gt; 铸造”，或者https:\/\/bonfida.com\/mint 进行访问。您只需输入SOL地址、总发行量、以及小数位。\n恭喜您刚刚在Solana区块链上发行了自己的通证。\n将您的NFT上线Solible 只需简单的操作，将想要上线NFT的对象发送至contact@solible.com。 除了高分辨的数字作品文件外，需要在邮件中注明作品名称和创作者。\n关于NFT上线的内容可以点击此处进行查看。\n</p><p>上币</p><p>solible</p><p>NFT</p>",
+							url:"https:\/\/help.bonfida.com\/zh\/solible\/listing\/"
+						},
+						
+						{
+							value: "Bonfida帮助中心",
+							label: "<p></p>",
+							url:"https:\/\/help.bonfida.com\/zh\/"
+						},
+						
+						{
+							value: "Solible",
+							label: "<p></p>",
+							url:"https:\/\/help.bonfida.com\/zh\/solible\/"
+						},
+						
+						{
+							value: "Wallet",
+							label: "<p></p>",
+							url:"https:\/\/help.bonfida.com\/zh\/wallet\/"
+						},
+						
+						{
+							value: "下单",
+							label: "<p></p>",
+							url:"https:\/\/help.bonfida.com\/zh\/orders\/"
+						},
+						
+						{
+							value: "联系我们",
+							label: "<p>24\/7客服:\n Discord Telegram Email  </p>",
+							url:"https:\/\/help.bonfida.com\/zh\/contact\/"
+						},
+						
+						{
+							value: "Categories",
+							label: "<p></p>",
+							url:"https:\/\/help.bonfida.com\/zh\/categories\/"
+						},
+						
+						{
+							value: "Tags",
+							label: "<p></p>",
+							url:"https:\/\/help.bonfida.com\/zh\/tags\/"
+						},
+						
+						{
+							value: "常见问题",
+							label: "<p> 什么是Serum？    Serum 是在 Solana 上搭建的去中心化交易所（DEX）。Solana 是一个高性能的区块链，可以让 Serum 拥有 100%的链上订单薄、零点几分的矿工费、以及闪电般的网络执行速度。 Serum 是一个完全无需许可的生态，任何人都可以在上面创建自己的通证，上线自己的交易市场，并创建自己的前端接口。想要了解更多 Serum 信息，请访问 https:\/\/projectserum.com。    Bonfida是什么？    Bonfida 是一款帮助缩小 Serum、Solana、以及用户之间差异的完整产品套件。我们是 Serum 前端接口的旗舰产品，也是第一个引入 Solana 数据分析的产品。目前，很多业内大型做市商正在使用我们的 API，并且在过去的一段时间内，每周需求的增长率都达到了 25%。阅读更多关于我们的信息，请访问： https:\/\/bonfida.medium.com\/bonfida-what-we-do-dc56c5c3779e。    Bonfida安全吗？    使用 Bonfida 的用户对私钥和通证有 100%的控制权。Bonfida 完全没有控制或挪用用户资金的可能性。    如何存入资金？    Bonfida 支持多种钱包：Bonfida 钱包、Sollet、Solong。就像使用基于以太坊的钱包一样简单，只需要根据个人喜好将资金存入您想使用的钱包中。点击右上角的连接按钮，即可在 Bonfida 上使用。点击后将出现一个下拉菜单，可以选择想要使用的钱包。    限价订单和市价订单有什么区别？    市价订单是马上买入或卖出，这种形式保证了订单会被立刻执行，但无法保证执行的价格，将按照可选择的最优价格执行。限价订单指的是按照指定的价格买卖资产。想要了解如何选择，请参考我们的相关专题。    我可以连接哪些钱包？    您可以选择以下钱包：\n Sollet 钱包 Bonfida 钱包 Solong 钱包     如何将ERC20的通证转换成SPL通证？    将 ERC20 通证转换成 SPL 通证（反之亦然）最简单的方式，是使用 Sollet.io 中的本地转换功能。    为什么需要对资金进行结算？    在 Serum 上进行交易后，您需要对资金进行结算，否则资金将会存放在临时账户中。您可以通过点击交易页面或余额页面的结算按钮进行结算。 需要注意的是，您可以在页面右上角开启自动结算。    为什么交易后账户余额没有更新？    确认交易已经执行，而不是处于未完成订单的状态 确认资金已经进行结算，否则交易信息不会在余额中进行更新    如何在Bonfida中上线交易市场？    请通过 contact@bonfida.com 联系我们，以便我们可以将其整合在 API 和前端接口中。    </p>",
+							url:"https:\/\/help.bonfida.com\/zh\/faq\/"
+						},
+						
+					];
+					$( "#search" ).autocomplete({
+						source: projects
+					})
+					.data( "ui-autocomplete" )._renderItem = function( ul, item ) {
+						return $( "<li>" )
+						.append( "<a href=" + item.url + " + \" &quot;\" +  >" + item.value + "</a>" + item.label )
+						.appendTo( ul );
+					};
+					});
+				</script>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- /banner -->
+    </header>
+    <!-- /header -->
+    
+    
+
+  <!-- topics -->
+  <section class="section">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-12 text-center">
+          <h2 class="section-title"></h2>
+        </div>
+        <!-- topic-item -->
+        
+        <div class="col-lg-4 col-sm-6 mb-4">
+          <a href="https://help.bonfida.com/zh/solible/" class="px-4 py-5 bg-white shadow text-center d-block match-height">
+            <i class="ti-palette icon text-primary d-block mb-4"></i>
+            <h3 class="mb-3 mt-0">Solible</h3>
+            <p class="mb-0">这里您可以获得所有Solible相关的信息</p>
+          </a>
+        </div>
+        
+        <div class="col-lg-4 col-sm-6 mb-4">
+          <a href="https://help.bonfida.com/zh/wallet/" class="px-4 py-5 bg-white shadow text-center d-block match-height">
+            <i class="ti-lock icon text-primary d-block mb-4"></i>
+            <h3 class="mb-3 mt-0">Wallet</h3>
+            <p class="mb-0">这里您可以获得所有Wallet相关的信息</p>
+          </a>
+        </div>
+        
+        <div class="col-lg-4 col-sm-6 mb-4">
+          <a href="https://help.bonfida.com/zh/orders/" class="px-4 py-5 bg-white shadow text-center d-block match-height">
+            <i class="ti-bar-chart icon text-primary d-block mb-4"></i>
+            <h3 class="mb-3 mt-0">下单</h3>
+            <p class="mb-0">这里您可以获得所有下单相关的信息</p>
+          </a>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+  <!-- /topics -->
+
+  
+  
+  <!-- call to action -->
+  <section>
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="section px-3 bg-white shadow text-center">
+          <h2 class="mb-4">没有找到您问题的答案吗？</h2>
+          <p class="mb-4">请联系我们，我们24/7在线。</p>
+          
+          
+          <a href="/zh/%e8%81%94%e7%b3%bb" class="btn btn-primary">联系我们</a>
+          
+          
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- /call to action -->
+  
+  
+
+
+    <!-- footer -->
+<footer class="section pb-4">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-md-8 text-md-left text-center">
+       <p class="mb-md-0 mb-4"></p>
+      </div>
+      <div class="col-md-4 text-md-right text-center">
+        <ul class="list-inline">
+          
+          <li class="list-inline-item"><a class="text-color d-inline-block p-2" href="https://twitter.com/bonfidadotcom"><i class="ti-twitter-alt"></i></a></li>
+          
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+<!-- /footer -->
+
+<!-- Main Script -->
+
+<script src="https://help.bonfida.com/js/script.min.js"></script>
+  </body>
+
+</html>
