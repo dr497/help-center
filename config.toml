@@ -5,7 +5,7 @@ baseURL = "https://help.bonfida.com/"
 theme = "Dot"
 
 # site title
-title = "Bonfida Help Center"
+title = "Bonfida帮助中心"
 # disable language
 disableLanguages = []
 # google analytics
@@ -53,36 +53,36 @@ weight = 1
 
 # banner
 [Languages.en.params.banner]
-title = "Support Center & Knowledge base"
-subtitle = "Find advice and answers from our support team fast or get in touch"
+title = "帮助 & 知识中心"
+subtitle = "向我们找寻您遇到问题的答案"
 bg_image = "images/banner.jpg"
-placeholder = "Have a question? Just ask here or enter terms"
+placeholder = "您有什么问题吗？请在这里询问"
 
 # call to action
 [Languages.en.params.cta]
 enable = true
-title = "Didn't find an answer to your question?"
-content = "Contact our 24/7 customer support line."
+title = "没有找到您问题的答案吗？"
+content = "请联系我们，我们24/7在线。"
 # call to action button
 [Languages.en.params.cta.button]
 enable = true
-label = "contact us"
-link = "contact"
+label = "联系我们"
+link = "联系"
 
 
 ################## english navigation #################
 [[Languages.en.menu.main]]
-name = "Home"
+name = "主页"
 url = "/"
 weight = 1
 
 [[Languages.en.menu.main]]
-name = "orders"
+name = "订单"
 url = "orders"
 weight = 2
 
 [[Languages.en.menu.main]]
-name = "wallet"
+name = "钱包"
 url = "wallet"
 weight = 3
 
@@ -92,19 +92,19 @@ url = "solible"
 weight =4
 
 [[Languages.en.menu.main]]
-name = "Faq"
+name = "常见问题"
 url = "faq"
 weight = 5
 
 [[Languages.en.menu.main]]
-name = "contact"
+name = "联系我们"
 url = "contact"
 weight =6
 
 
 
 
-################################### Franch Language ######################
+################################### Chinese Language ######################
 [Languages.zh]
 languageName = "Zh"
 languageCode = "zh-cn"
@@ -113,16 +113,16 @@ copyright = "Copyright © 2020 un thème Hugo par [Gethugothemes](https://gethug
 
 # banner
 [Languages.zh.params.banner]
-title = "Support Center & Knowledge base"
-subtitle = "Find advice and answers from our support team fast or get in touch"
+title = "帮助 & 知识中心"
+subtitle = "向我们找寻您遇到问题的答案"
 bg_image = "images/banner.jpg"
-placeholder = "Have a question? Just ask here or enter terms"
+placeholder = "您有什么问题吗？请在这里询问"
 
 # call to action
 [Languages.zh.params.cta]
 enable = true
-title = "Didn't find an answer to your question?"
-content = "Contact our 24/7 customer support line."
+title = "没有找到您问题的答案吗？"
+content = "请联系我们，我们24/7在线。"
 # call to action button
 [Languages.zh.params.cta.button]
 enable = true
