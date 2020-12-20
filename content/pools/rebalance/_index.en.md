@@ -20,7 +20,7 @@ Let's take the Ecosystem Pool as an example. Until December 22nd only USDC can b
 | LQID | 0       | \$0.2      |
 | USDC | 100,000 | \$1        |
 
-Before, it's initaliziation the pool contains USD$ 100,000 so it needs to buy $ 100,000/4 = \$ 25,000 worth of each token, so after it's initaliziation the pool will be as follow:
+Before it's initaliziation the pool contains USD$ 100,000 so it needs to buy $ 100,000/4 = \$ 25,000 worth of each token, so after it's initaliziation the pool will be as follow:
 
 | Coin | Size     | Spot price |
 | ---- | -------- | ---------- |
@@ -32,7 +32,7 @@ Before, it's initaliziation the pool contains USD$ 100,000 so it needs to buy $ 
 
 # Weekly Rebalance
 
-Let's keep the previous example, let's assume that the spot prices have changed to following
+Let's keep the previous example, let's assume that the spot prices have changed to the following:
 
 | Coin | Size     | Spot price | USD worth |
 | ---- | -------- | ---------- | --------- |
