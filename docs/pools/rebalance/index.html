@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta charset="description" content="Bonfida Help Center - We are here to help you trade on Serum">
   <meta charset="keywords" content="Bonfida Help Center, Bonfida, Help, Support, Customer, ZenDesk, Serum, SRM, Get started, Beginner, Problem, How, How to, ?, 24/7, Customer Support">
-  <title>Order Placement</title>
+  <title>How do pools rebalance?</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta name="generator" content="Hugo 0.70.0" />
 
@@ -132,22 +132,10 @@
         
         
         
-        <option id="en" value="https://help.bonfida.com/orders/" selected>En
+        <option id="en" value="https://help.bonfida.com/pools/rebalance/" selected>En
         </option>
         
         
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        <option id="zh" value="https://help.bonfida.com/zh/orders/">zh</option>
         
         
         
@@ -174,10 +162,6 @@
             <a class="back-btn" href="/"></a>
             
               
-            
-              
-            
-              
               
 
 
@@ -187,10 +171,10 @@
 
 
 
-<li data-nav-id="https://help.bonfida.com/orders/" title="Order Placement" class="sidelist
-  active">
-  <a href="https://help.bonfida.com/orders/">
-    Order Placement
+<li data-nav-id="https://help.bonfida.com/pools/" title="Pools" class="sidelist
+  ">
+  <a href="https://help.bonfida.com/pools/">
+    Pools
   </a>
   
   
@@ -206,98 +190,10 @@
 
 
 
-<li data-nav-id="https://help.bonfida.com/orders/fees/" title="Fees" class="sidelist
-  ">
-  <a href="https://help.bonfida.com/orders/fees/">
-    Fees
-  </a>
-  
-  
-</li>
-
-
-        
-      
-        
-          
-
-
-
-
-
-
-
-
-<li data-nav-id="https://help.bonfida.com/orders/settle/" title="Settlement" class="sidelist
-  ">
-  <a href="https://help.bonfida.com/orders/settle/">
-    Settlement
-  </a>
-  
-  
-</li>
-
-
-        
-      
-        
-          
-
-
-
-
-
-
-
-
-<li data-nav-id="https://help.bonfida.com/orders/limit/" title="Limit Orders" class="sidelist
-  ">
-  <a href="https://help.bonfida.com/orders/limit/">
-    Limit Orders
-  </a>
-  
-  
-</li>
-
-
-        
-      
-        
-          
-
-
-
-
-
-
-
-
-<li data-nav-id="https://help.bonfida.com/orders/market/" title="Market Orders" class="sidelist
-  ">
-  <a href="https://help.bonfida.com/orders/market/">
-    Market Orders
-  </a>
-  
-  
-</li>
-
-
-        
-      
-        
-          
-
-
-
-
-
-
-
-
-<li data-nav-id="https://help.bonfida.com/orders/cancel/" title="Cancel an order" class="sidelist
-  ">
-  <a href="https://help.bonfida.com/orders/cancel/">
-    Cancel an order
+<li data-nav-id="https://help.bonfida.com/pools/rebalance/" title="How do pools rebalance?" class="sidelist
+  active">
+  <a href="https://help.bonfida.com/pools/rebalance/">
+    How do pools rebalance?
   </a>
   
   
@@ -311,6 +207,10 @@
 </li>
 
 
+              
+            
+              
+            
               
             
               
@@ -324,147 +224,161 @@
       </div>
       <div class="col-lg-9">
         <div class="p-lg-5 p-4 bg-white">
-          <h2 class="mb-5">Order Placement</h2>
+          <h2 class="mb-5">How do pools rebalance?</h2>
           
-          <div class="bg-light p-4">
-            <ul class="page-list">
-              
-
-
-
-
-
-
-
-
-<li data-nav-id="https://help.bonfida.com/orders/" title="Order Placement" class="sidelist
-  active">
-  <a href="https://help.bonfida.com/orders/">
-    Order Placement
-  </a>
-  
-  
-    <ul>
-      
-        
+          <div class="content"><h1 id="first-rebalance-ie-initaliziation">First Rebalance i.e Initaliziation</h1>
+<p>Let&rsquo;s take the Ecosystem Pool as an example. Until December 22nd only USDC can be deposited in the pool, so let&rsquo;s say that on December 22nd just before it&rsquo;s initaliziation, people deposited 100,000 USDC in the pool. The breakdown of the pool would be as follow:</p>
+<table>
+<thead>
+<tr>
+<th>Coin</th>
+<th>Size</th>
+<th>Spot price</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>FIDA</td>
+<td>0</td>
+<td>$0.1</td>
+</tr>
+<tr>
+<td>SRM</td>
+<td>0</td>
+<td>$1.2</td>
+</tr>
+<tr>
+<td>SOL</td>
+<td>0</td>
+<td>$1.6</td>
+</tr>
+<tr>
+<td>LQID</td>
+<td>0</td>
+<td>$0.2</td>
+</tr>
+<tr>
+<td>USDC</td>
+<td>100,000</td>
+<td>$1</td>
+</tr>
+</tbody>
+</table>
+<p>Before, it&rsquo;s initaliziation the pool contains USD$ 100,000 so it needs to buy $ 100,000/4 = $ 25,000 worth of each token, so after it&rsquo;s initaliziation the pool will be as follow:</p>
+<table>
+<thead>
+<tr>
+<th>Coin</th>
+<th>Size</th>
+<th>Spot price</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>FIDA</td>
+<td>250,000</td>
+<td>$0.1</td>
+</tr>
+<tr>
+<td>SRM</td>
+<td>20,833.3</td>
+<td>$1.2</td>
+</tr>
+<tr>
+<td>SOL</td>
+<td>15,625</td>
+<td>$1.6</td>
+</tr>
+<tr>
+<td>LQID</td>
+<td>125,000</td>
+<td>$0.2</td>
+</tr>
+<tr>
+<td>USDC</td>
+<td>0</td>
+<td>$1</td>
+</tr>
+</tbody>
+</table>
+<h1 id="weekly-rebalance">Weekly Rebalance</h1>
+<p>Let&rsquo;s keep the previous example, let&rsquo;s assume that the spot prices have changed to following</p>
+<table>
+<thead>
+<tr>
+<th>Coin</th>
+<th>Size</th>
+<th>Spot price</th>
+<th>USD worth</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>FIDA</td>
+<td>250,000</td>
+<td>$0.2</td>
+<td>50,000</td>
+</tr>
+<tr>
+<td>SRM</td>
+<td>20,833.3</td>
+<td>$1.1</td>
+<td>22,916.63</td>
+</tr>
+<tr>
+<td>SOL</td>
+<td>15,625</td>
+<td>$1.8</td>
+<td>28,125</td>
+</tr>
+<tr>
+<td>LQID</td>
+<td>125,000</td>
+<td>$0.25</td>
+<td>31,250</td>
+</tr>
+</tbody>
+</table>
+<p>The pool is now worth $132,291.63 and will need to rebalance to allocate $ 132,291.63 / 4 = $ 33,072.9 in each asset. So the pool will have to sell some of it&rsquo;s FIDA to buy SRM, SOL and LQID. The pool will buy from the orderbook at the best average entry price. After the rebalance the pool will look like:</p>
+<table>
+<thead>
+<tr>
+<th>Coin</th>
+<th>Size</th>
+<th>Spot price</th>
+<th>USD worth</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>FIDA</td>
+<td>165,364.5</td>
+<td>$0.2</td>
+<td>33,072.9</td>
+</tr>
+<tr>
+<td>SRM</td>
+<td>30,066.27</td>
+<td>$1.1</td>
+<td>33,072.9</td>
+</tr>
+<tr>
+<td>SOL</td>
+<td>18,373.83</td>
+<td>$1.8</td>
+<td>33,072.9</td>
+</tr>
+<tr>
+<td>LQID</td>
+<td>132,291.6</td>
+<td>$0.25</td>
+<td>33,072.9</td>
+</tr>
+</tbody>
+</table>
+</div>
           
-
-
-
-
-
-
-
-
-<li data-nav-id="https://help.bonfida.com/orders/fees/" title="Fees" class="sidelist
-  ">
-  <a href="https://help.bonfida.com/orders/fees/">
-    Fees
-  </a>
-  
-  
-</li>
-
-
-        
-      
-        
-          
-
-
-
-
-
-
-
-
-<li data-nav-id="https://help.bonfida.com/orders/settle/" title="Settlement" class="sidelist
-  ">
-  <a href="https://help.bonfida.com/orders/settle/">
-    Settlement
-  </a>
-  
-  
-</li>
-
-
-        
-      
-        
-          
-
-
-
-
-
-
-
-
-<li data-nav-id="https://help.bonfida.com/orders/limit/" title="Limit Orders" class="sidelist
-  ">
-  <a href="https://help.bonfida.com/orders/limit/">
-    Limit Orders
-  </a>
-  
-  
-</li>
-
-
-        
-      
-        
-          
-
-
-
-
-
-
-
-
-<li data-nav-id="https://help.bonfida.com/orders/market/" title="Market Orders" class="sidelist
-  ">
-  <a href="https://help.bonfida.com/orders/market/">
-    Market Orders
-  </a>
-  
-  
-</li>
-
-
-        
-      
-        
-          
-
-
-
-
-
-
-
-
-<li data-nav-id="https://help.bonfida.com/orders/cancel/" title="Cancel an order" class="sidelist
-  ">
-  <a href="https://help.bonfida.com/orders/cancel/">
-    Cancel an order
-  </a>
-  
-  
-</li>
-
-
-        
-      
-    </ul>
-  
-</li>
-
-
-            </ul>
-          </div>
-          
-          <p class="post-meta border-bottom pb-3 mb-0 mt-3">Updated on 26 Nov 2020</p>
+          <p class="post-meta border-bottom pb-3 mb-0 mt-3">Updated on 20 Dec 2020</p>
           <nav class="pagination mt-3">
             
             
@@ -492,8 +406,6 @@
             
             
             
-            
-            
 
             
             
@@ -501,24 +413,6 @@
             
             
 
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-            
-
-            
-            
-            
-            
-            
             
             
             
@@ -539,19 +433,6 @@
             
             
             
-            
-            
-            
-            
-            
-            
-
-            
-            
-            
-            
-            
-
             
             
             
@@ -583,92 +464,9 @@
             
             
             
-
-            
-            
-            
-            
-            
-            
-            
-            
-            
             
             
 
-            
-            
-            
-
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-            
-
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-            
-
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-            
-            
-            
-
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-            
-
-            
-            
-            
             
             
             
@@ -855,6 +653,120 @@
             
             
             
+
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
             
             
             
@@ -872,10 +784,10 @@
             
 
             
-            <a class="nav nav-prev" href="https://help.bonfida.com/contact/"><i class="ti-arrow-left mr-2"></i> <span class="d-none d-md-block">Got Any Questions</span></a>
+            <a class="nav nav-prev" href="https://help.bonfida.com/pools/"><i class="ti-arrow-left mr-2"></i> <span class="d-none d-md-block">Pools</span></a>
             
             
-            <a class="nav nav-next" href="https://help.bonfida.com/orders/fees/"> <span class="d-none d-md-block">Fees</span><i class="ti-arrow-right ml-2"></i></a>
+            <a class="nav nav-next" href="https://help.bonfida.com/contact/"> <span class="d-none d-md-block">Got Any Questions</span><i class="ti-arrow-right ml-2"></i></a>
             
           </nav>
         </div>

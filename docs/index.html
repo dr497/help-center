@@ -177,6 +177,12 @@
 					var projects = [
 						
 						{
+							value: "How do pools rebalance?",
+							label: "<p>First Rebalance i.e Initaliziation Let\x26rsquo;s take the Ecosystem Pool as an example. Until December 22nd only USDC can be deposited in the pool, so let\x26rsquo;s say that on December 22nd just before it\x26rsquo;s initaliziation, people deposited 100,000 USDC in the pool. The breakdown of the pool would be as follow:\n   Coin Size Spot price     FIDA 0 $0.1   SRM 0 $1.2   SOL 0 $1.6   LQID 0 $0.2   USDC 100,000 $1    Before, it\x26rsquo;s initaliziation the pool contains USD$ 100,000 so it needs to buy $ 100,000\/4 = $ 25,000 worth of each token, so after it\x26rsquo;s initaliziation the pool will be as follow:\n   Coin Size Spot price     FIDA 250,000 $0.1   SRM 20,833.3 $1.2   SOL 15,625 $1.6   LQID 125,000 $0.2   USDC 0 $1    Weekly Rebalance Let\x26rsquo;s keep the previous example, let\x26rsquo;s assume that the spot prices have changed to following\n   Coin Size Spot price USD worth     FIDA 250,000 $0.2 50,000   SRM 20,833.3 $1.1 22,916.63   SOL 15,625 $1.8 28,125   LQID 125,000 $0.25 31,250    The pool is now worth $132,291.63 and will need to rebalance to allocate $ 132,291.63 \/ 4 = $ 33,072.9 in each asset. So the pool will have to sell some of it\x26rsquo;s FIDA to buy SRM, SOL and LQID. The pool will buy from the orderbook at the best average entry price. After the rebalance the pool will look like:\n   Coin Size Spot price USD worth     FIDA 165,364.5 $0.2 33,072.9   SRM 30,066.27 $1.1 33,072.9   SOL 18,373.83 $1.8 33,072.9   LQID 132,291.6 $0.25 33,072.9    </p><p>pool</p><p>rebalance</p>",
+							url:"https:\/\/help.bonfida.com\/pools\/rebalance\/"
+						},
+						
+						{
 							value: "Convert your assets",
 							label: "<p>As of now, there are two ways to convert a token within the Serum ecosystem:\nDEX The convert function within the Bonfida GUI will only appear once you have connected your wallet.\nSWAP Also accessible from the header of Bonfida, Serum Swap has numerous listings available (including BTC, ETH, SOL, SRM, YFI, LINK, UNI \x26hellip;) for you to try\nWith the pools in Serum Swap, you may also provide liquidity for fees and an estimated APR averaging from 20 to 30% on some pairs.\nRead more on Project Serum Swap AMM and its pool on Serum Academy\n</p><p>convert</p><p>tokens</p><p>swap</p>",
 							url:"https:\/\/help.bonfida.com\/wallet\/convert\/"
@@ -279,6 +285,12 @@
 						},
 						
 						{
+							value: "Pools",
+							label: "<p></p>",
+							url:"https:\/\/help.bonfida.com\/pools\/"
+						},
+						
+						{
 							value: "Got Any Questions",
 							label: "<p>24\/7 customer support:\n Discord Telegram Email  </p>",
 							url:"https:\/\/help.bonfida.com\/contact\/"
@@ -349,6 +361,14 @@
           <h2 class="section-title"></h2>
         </div>
         <!-- topic-item -->
+        
+        <div class="col-lg-4 col-sm-6 mb-4">
+          <a href="https://help.bonfida.com/pools/" class="px-4 py-5 bg-white shadow text-center d-block match-height">
+            <i class="ti-pie-chart icon text-primary d-block mb-4"></i>
+            <h3 class="mb-3 mt-0">Pools</h3>
+            <p class="mb-0">Everything you need to know about pools</p>
+          </a>
+        </div>
         
         <div class="col-lg-4 col-sm-6 mb-4">
           <a href="https://help.bonfida.com/orders/" class="px-4 py-5 bg-white shadow text-center d-block match-height">
