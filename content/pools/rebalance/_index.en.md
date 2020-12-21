@@ -49,3 +49,7 @@ The pool is now worth \$132,291.63 and will need to rebalance to allocate \$ 132
 | SRM  | 30,066.27 | \$1.1      | 33,072.9  |
 | SOL  | 18,373.83 | \$1.8      | 33,072.9  |
 | LQID | 132,291.6 | \$0.25     | 33,072.9  |
+
+{{< notice tip >}}
+Redemptions and creations are disabled during pool rebalances
+{{</ notice >}}
