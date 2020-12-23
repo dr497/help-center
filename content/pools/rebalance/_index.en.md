@@ -60,4 +60,4 @@ A pool will not increase it’s position in one asset by more than 5% to avoid t
 
 # When do pools rebalance?
 
-Pools that have already been initialized rebalance every Sunday from 9pm - 10pm UTC +8. The orders are TWAPed during 1 hour maximum to minimize the price impact.
+Pools that have already been initialized rebalance every Sunday. The orders are TWAPed to minimize the price impact.
