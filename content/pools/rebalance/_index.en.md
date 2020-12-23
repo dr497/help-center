@@ -53,3 +53,11 @@ The pool is now worth \$132,291.63 and will need to rebalance to allocate \$ 132
 {{< notice tip >}}
 Redemptions and creations are disabled during pool rebalances
 {{</ notice >}}
+
+{{< notice tip >}}
+A pool will not increase it’s position in one asset by more than 5% to avoid the pool taking too large positions in an asset which has decreased significantly in price
+{{</ notice >}}
+
+# When do pools rebalance?
+
+Pools that have already been initialized rebalance every Sunday from 9pm - 10pm UTC +8. The orders are TWAPed during 1 hour maximum to minimize the price impact.
