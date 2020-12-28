@@ -5,7 +5,7 @@ baseURL = "https://help.bonfida.com/"
 theme = "Dot"
 
 # site title
-title = "Bonfida帮助中心"
+title = "Bonfida"
 # disable language
 disableLanguages = []
 # google analytics
