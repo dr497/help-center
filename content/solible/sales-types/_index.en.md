@@ -10,8 +10,4 @@ keywords: ["sales", "types", "solible", "NFT"]
 
 ## Auction
 
-Comparable to many other online auctions, an auction on Solible consists of a bid competition in between interested participants that will reward the highest bidder at the countdown expiration.
-
-![types-1](types-1.png)
-
-There is a timing deadline to stop receiving buy orders.
+Like other online auction sites, an auction on Solible for NFTs consists of a bidding competiting between interested participants that produces a winner (with the highesst bid) after the countdown expires. Auctions with a deadline will have a countdown timer shown at the bottom of the page.

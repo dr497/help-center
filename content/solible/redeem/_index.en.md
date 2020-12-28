@@ -8,18 +8,16 @@ draft: false
 keywords: ["redeem", "nft", "solible", "NFT"]
 ---
 
-To redeem an item, access its auction page. In this article we’ll use the [Serum Ledger Nano X](https://solible.com/#/trade/327ubUZkUUAEdeWvyQYh1Ycs9mt6yDnt7jDAW47U3krw) as an example.
+To redeem an item, you will have to access the auction page. Here, we will use the Serum Ledger Nano X as an example.
 
 ![redeem-1](redeem-1.png)
 
-First, you will need to connect your wallet that is holding the token. Once you have connected, the **Redeem button** will get enabled.
+When you have connected a wallet that holds the NFT, the **Redeem** button will be enabled. Proceed to click on it and fill in your delivery information in the pop-up.
 
 ![redeem-2](redeem-2.png)
 
-Proceed to fill in your delivery information in the pop up forms then submit.
+Lastly, you will have to approve the transaction after submitting your details - once this transaction is approved it will mean that the NFT has been redeemed! Once confirmed Bonfida will ship out the item and send out a confirmation email within 24 Hours for your NFT redemption.
 
 ![redeem-3](redeem-3.png)
 
 ![redeem-4](redeem-4.png)
-
-Finally, approve the transaction, once the transaction is confirmed it means you have successfully redeemed the NFT. Now you just have to wait for it to be mailed to your door. You will receive a confirmation email in the 24 hour after redeeming your NFT.

@@ -12,9 +12,7 @@ Having your NFT creation listed on [Solible](https://solible.com/#/) is possible
 
 ## Mint your token
 
-A cool feature available on Solana through Bonfida, is to be able to mint your own token and decide on its characteristics.
-
-Accessible from the [Bonfida](https://bonfida.com/) header Token -> Mint, or [https://bonfida.com/mint](https://bonfida.com/mint) ; you just need to type in your SOL address, the total supply and the decimals.
+Bonfida has an SPL Token minter available on [bonfida.com/mint](https://bonfida.com/mint) - here you will be able to mint your own token that represents an NFT. Simply enter your SOL address and your desired supply as well as the decimal points.
 
 ![list-1](list-1.png)
 
@@ -26,7 +24,6 @@ Congrats you just minted your token on the Solana blockchain.
 
 ## List your NFT on Solible
 
-A simple email to [contact@solible.com](mailto:contact@solible.com) with the object being NFL listing.
-Alongside your digital art high resolution file, let us also know both the creation name and the artist behind.
+To list your newly-created NFT on solible, send an email to [contact@solible.com](mailto:contact@solible.com) with "NFT Listing"as the title, and include your digital art in a high resolution file (.svg or .png). Please also include the name of the NFT as well as the name of the artist behind the art piece.
 
-Check the source on NFT listing [here](https://solible.com/#/list-nft).
+[https://solible.com/#/list-nft](https://solible.com/#/list-nft)

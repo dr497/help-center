@@ -8,12 +8,8 @@ draft: false
 keywords: ["resell", "solible", "sell", "order", "NFT"]
 ---
 
-Connect your wallet to [Solible](https://solible.com), then from the item page click on **Sell** in the trade form. Enter the price and size the you want to sell, and click on the **Sell** button.
+To sell the NFT you purchased, simply head to its respective auction page and put a limit order on the books as you would for [buying NFTs](/solible/place-bid/). Remember you will have to approve the transaction and settle your balance after the trade.
 
 ![sell-1](sell-1.png)
 
 ![sell-2](sell-2.png)
-
-After approving the transaction you’ll see your sell order in the order book as well as in your open orders below.
-
-As soon as someone buys your token, the funds received will be in your unsettled balances. You will need to settle those from the item page, **otherwise funds will not appear in your wallet**.
