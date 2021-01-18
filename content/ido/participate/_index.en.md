@@ -12,7 +12,6 @@ keywords: ["IDO", "maps"]
 
 - Tokens for Sale: 2,000,000
 - Min Bid: $0.10 and no max bid
-- Min Price Increment: $0.05
 - Min Ticket Size: 1 MAPS
 - Min Ticket Increment: 1 MAPS
 - Ticker: MAPS
