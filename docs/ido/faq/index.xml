@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Bonfida</title>
-    <link>https://help.bonfida.com/</link>
-    <description>Recent content on Bonfida</description>
+    <title>FAQ on Bonfida</title>
+    <link>https://help.bonfida.com/ido/faq/</link>
+    <description>Recent content in FAQ on Bonfida</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 29 Jan 2021 11:02:05 +0800</lastBuildDate>
     
-	<atom:link href="https://help.bonfida.com/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://help.bonfida.com/ido/faq/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
