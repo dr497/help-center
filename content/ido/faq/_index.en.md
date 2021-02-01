@@ -32,9 +32,9 @@ keywords: ["FAQ", "maps", "ido"]
 
 - The trading pair will be MAPS/USDT. This market will appear roughly 15 minutes before to allow for participants to bid on the auction.
 
-### What happens after the 15-minute bidding allocation time?
+### What happens after the 16-minute bidding allocation time?
 
-- After the 15 minutes of bidding the MAPS will be distributed. This will result in 2,000,000 MAPS being market sold to the highest bidders first. A scenario of this will be: from 0.13-0.15 there are over 2 million bids for MAPS. Those who are in the first 2 million spots will get filled. If you had a bid at 0.12 you will not get filled.
+- After the 16 minutes of bidding the MAPS will be distributed. This will result in 2,000,000 MAPS being market sold to the highest bidders first. A scenario of this will be: from 0.13-0.15 there are over 2 million bids for MAPS. Those who are in the first 2 million spots will get filled. If you had a bid at 0.12 you will not get filled.
 
 ### Can I change my bid during the 15 minutes?
 
