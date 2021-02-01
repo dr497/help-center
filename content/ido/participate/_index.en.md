@@ -41,7 +41,7 @@ Bonfida, FTX, Bitmax: February 1st, 22:00 SGT
 Set an alarm in advance: the IEO starts on February 1st, 21:45 SGT.
 
 - A MAPS/USDT market will be listed on Bonfida.
-- You have **15 minutes** to place bids on the orderbook between February 1st, 21:45 SGT - February 1st, 22:00 SGT. You can bid at any price that you think is reasonable (min bid is $0.10/MAPS).
+- You have **16 minutes** to place bids on the orderbook between February 1st, 21:45 SGT - February 1st, 22:01 SGT. You can bid at any price that you think is reasonable (min bid is $0.10/MAPS).
 - Between February 1st, 22:00 - 22:01 SGT, 2,000,000 MAPS tokens will be market sold in this market, and so the top bids in the orderbook will be filled.
 - You will need to cancel any unfilled open orders after the allocations are announced.
 

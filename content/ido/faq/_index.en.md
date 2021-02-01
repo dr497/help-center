@@ -14,7 +14,7 @@ keywords: ["FAQ", "maps", "ido"]
 
 ### When can I bid for MAPS?
 
-- You have 15 minutes to place bids on the orderbook between February 1st, 21:45 SGT - February 1st, 22:00 SGT.
+- You have 16 minutes to place bids on the orderbook between February 1st, 21:45 SGT - February 1st, 22:01 SGT.
 
 ### If your order does not get filled.
 
