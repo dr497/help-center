@@ -3,21 +3,6 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://help.bonfida.com/zh/ido/participate/</loc>
-    <lastmod>2021-01-18T11:02:05+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://help.bonfida.com/ido/participate/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://help.bonfida.com/zh/ido/participate/"
-                />
-  </url>
-  
-  <url>
     <loc>https://help.bonfida.com/zh/wallet/create/</loc>
     <lastmod>2020-11-26T11:02:05+06:00</lastmod>
     <xhtml:link
@@ -259,7 +244,7 @@
   
   <url>
     <loc>https://help.bonfida.com/zh/</loc>
-    <lastmod>2021-01-18T11:02:05+08:00</lastmod>
+    <lastmod>2020-11-26T11:02:05+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -314,21 +299,6 @@
                 rel="alternate"
                 hreflang="zh"
                 href="https://help.bonfida.com/zh/orders/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://help.bonfida.com/zh/ido/</loc>
-    <lastmod>2020-11-26T11:02:05+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://help.bonfida.com/ido/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://help.bonfida.com/zh/ido/"
                 />
   </url>
   
