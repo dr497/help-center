@@ -5,46 +5,106 @@ lastmod: 2021-01-18T11:02:05+08:00
 weight: 1
 draft: false
 # search related keywords
-keywords: ["IDO", "maps"]
+keywords: ["IDO", "oxy"]
 ---
 
-### Structure:
+## Wallet Creation
 
-- Tokens for Sale: 2,000,000
-- Min Bid: $0.10 and no max bid
-- Min Price Increment: $0.01
-- Min Ticket Size: 1 MAPS
-- Min Ticket Increment: 1 MAPS
-- Ticker: MAPS
+1. Go to [Bonfida Wallet](https://bonfida.com/wallet)
 
-### Listing Timing:
+   - Create new wallet, or restore an existing one
 
-Bonfida, FTX, Bitmax: February 1st, 22:00 SGT
+2. Press **RECEIVE** to send SOL. To pay for transaction and address creation roughly 0.5 SOL is required.
 
-**Note: MAPS token will be listed on Bonfida, FTX, and BitMax on February 1st, 22:00 SGT at $0.10.**
+![1](1.png)
 
-**In order to bid during the IEO, make sure you read the rules below and do the following beforehand:**
+3. Note that for **OXY** you will need 1 FIDA for every 10 USDC, e.g if you intend to invest 1,000 USDC then you need 100 FIDA
 
-- You will need to set-up a Solana-based wallet. You have the following options:
+4. Click on **Add Token** and select **FIDA**
 
-  - bonfida.com/wallet
-  - solongwallet.com
-  - Sollet.io
+![2](2.png)
 
-- You will need to have SOL in the wallet to pay for network fees/gas. To help you get started on Solana, we can airdrop SOL in your wallet. The airdrop can only be claimed once per SOL or IP address. You can also add more SOL to your wallet by either:
-  - Depositing SOL
-  - Connecting to MetaMask for an ETH to SOL conversion (only for sollet and Bonfida’s wallet)
-  - Fund your wallet with USDT
+5. Also add **USDC**
 
-### How the IEO will work:
+![3](3.png)
 
-Set an alarm in advance: the IEO starts on February 1st, 21:45 SGT.
+Deposit **USDC** and **FIDA** into your newly created token accounts.
 
-- A MAPS/USDT market will be listed on Bonfida.
-- You have **16 minutes** to place bids on the orderbook between February 1st, 21:45 SGT - February 1st, 22:01 SGT. You can bid at any price that you think is reasonable (min bid is $0.10/MAPS).
-- Between February 1st, 22:00 - 22:01 SGT, 2,000,000 MAPS tokens will be market sold in this market, and so the top bids in the orderbook will be filled.
-- You will need to cancel any unfilled open orders after the allocations are announced.
+## Entering the IDO
 
-There is no guarantee of your right to participate in the IEO or to receive any allocation.
+1. Go to [the Serum IDO page](https://bonfida.com/dex/#/ido)
 
-**THE MAPS.ME IEO AND MAPS ARE NOT BEING OFFERED IN THE UNITED STATES OR TO ANY U.S. PERSONS. IF YOU ARE LOCATED IN, INCORPORATED OR OTHERWISE ESTABLISHED IN, OR A RESIDENT OF THE UNITED STATES OF AMERICA, YOU ARE NOT PERMITTED TO PARTICIPATE IN THE MAPS.ME IEO OR TO PURCHASE ANY MAPS TOKENS.**
+2. **Connect** your wallet if it isn’t connected.
+
+![4](4.png)
+
+3. **Approve** access to your wallet.
+
+![5](5.png)
+
+4. Click the **Deposit** tab and input the amount of USDC worth of OXY you would like to buy. It will automatically work the 10:1 ratio of FIDA required.
+
+![6](6.png)
+
+5. Click the **Submit** button.
+
+![7](7.png)
+
+6. **Approve** the transaction in the wallet pop up.
+
+![8](8.png)
+
+7. Your **USDC and FIDA** will be deposited into the pool. From 9:55pm to 10:00pm UTC+8 the pool will be locked and **USDC** swapped for **OXY** tokens.
+
+8. At 10:00pm UTC+8 the pool will unlock and you will be able withdraw from the pool using the withdraw tab.
+
+9. Click **Submit**
+
+![7](7.png)
+
+10. **Approve** the transaction.
+
+11. The **OXY & FIDA** tokens are now in **YOUR** wallet.
+
+## Rules
+
+- The pool will open March 16th 8pm UTC+8 and will close March 16th 9:55pm UTC+8
+- During the 2-hour time period people will be able to deposit USDC + FIDA in the pool with a 10:1 ratio
+- The FIDA deposited in the pool will not be burned
+- The deposit limit is max 5,000 USDC + 500 FIDA per person
+- The pool itself does not have a maximum deposit amount
+- IDO price is 0.125 USDC per OXY token
+- From 9:55pm to 10:00pm, 2,000,000 OXY tokens will be swapped for 250,000 USDC
+- If there is more than 250,000 USDC deposited in the pool in total, the remaining USDC will not be swapped and will remain in the pool
+- After 10:00pm, people will be able to withdraw (remaining USDC + OXY + FIDA) from the pool
+- Users final allocation will be based on the amount of funds they put in as a percentage of all funds put in by other users at the time the IDO ends.
+- This model allows everyone to have an allocation
+
+## Examples
+
+- User A deposits 5,000 USDC + 500 FIDA during the window period
+- OXY = $0.125 USDC
+
+### Scenario 1: Fully Subscribed
+
+- Total 250,000 USDC + 25,000 FIDA has been deposited into the pool
+- From 9:55 to 10:00pm, 250,000 USDC will be swapped for 2,000,000 OXY
+- After 10:00pm, the OXYGEN pool has 0 USDC + 25,000 FIDA + 2,000,000 OXY
+- User A can withdraw 0 USDC + 500 FIDA + 40,000 OXY
+- User A owns 2% of the pool = (5,000 USDC + 500 FIDA) / (250,000 USDC + 25,000 FIDA)
+
+### Scenario 2: Over Subscribed
+
+- Total 500,000 USDC + 50,000 FIDA has been deposited into the pool
+- From 9:55 to 10:00pm, 250,000 USDC will be swapped for 2,000,000 OXY
+- After 10:00pm, the OXYGEN pool has 250,000 USDC + 50,000 FIDA + 2,000,000 OXY
+- User A can withdraw 2,500 USDC + 500 FIDA + 20,000 OXY
+- User A owns 1% of the pool = (5,000 USDC + 500 FIDA) / (500,000 USDC + 50,000 FIDA)
+
+### Scenario 3: Under Subscribed (very unlikely to happen)
+
+- Total 150,000 USDC + 15,000 FIDA has been deposited into the pool
+- From 9:55 to 10:00pm, 150,000 USDC will be swapped for 1,200,000 OXY
+- After 10:00pm, the OXYGEN pool has 0 USDC + 15,000 FIDA + 1,200,000 OXY
+- User A can withdraw 0 USDC + 500 FIDA + 40,000 OXY
+- User A owns 3.3% of the pool = (5,000 USDC + 500 FIDA) / (150,000 USDC + 15,000 FIDA)
